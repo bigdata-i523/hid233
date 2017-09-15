@@ -19,6 +19,7 @@ paper1:
    abstract: This paper showcases this and that and the other
    url: https://github.com/bigdata-i523/hid233/paper1/paper1.pdf
    type: latex
+   status: in progress
 ```
    
 # Paper 2
@@ -33,6 +34,7 @@ paper2:
    abstract: This paper showcases tis and that and the other in regards to abc
    url: https://github.com/bigdata-i523/hid233/paper2/paper2.pdf   
    type: latex
+   status: not started yet
 ```
 
 # Project 
@@ -52,4 +54,5 @@ paper2:
    abstract: This paper showcases tis and that and the other 
    url: https://github.com/bigdata-i523/pid000/project/report.pdf
    type: latex
+   status: not started yet 
 ```

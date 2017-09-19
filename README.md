@@ -36,20 +36,3 @@ paper2:
    type: latex
    status: not started yet
 ```
-
-# Project 
-
-```
-project:
-   type: project
-   type: report
-   author: 
-   - Wang, Jiaan (Jervis)
-   pid:
-   - 000
-   title: still thinking
-   abstract: This paper showcases 
-   url: https://github.com/bigdata-i523/sample-pid000/project/report.pdf
-   type: latex
-   status: not started yet
-```

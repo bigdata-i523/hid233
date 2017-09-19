@@ -1,11 +1,11 @@
-Title: In progress
+Title: Big Data Applications in Entertainment Industry
 
 Author: Wang, Jiaan (Jervis)
 
 HID: 233
 
-PID: not assigned yet
-
 E-mail: jervwang@indiana.edu
 
 Format: latex 
+
+Status: in progress

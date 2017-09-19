@@ -16,9 +16,9 @@ paper1:
    hid:
    - 233
    title: Big Data Applications in Entertainment Industry
-   abstract: This paper showcases 
+   abstract: This paper showcases how big data is used in the recommendation systems.
    url: https://github.com/bigdata-i523/hid233/paper1/paper1.pdf
-   type: sharelatex
+   type: latex
    status: in progress
 ```
    
@@ -31,24 +31,11 @@ paper2:
    hid:
    - 233
    title: Big Data in Virtual Assistants - Siri vs Cortana vs Google Assistant vs Amazon Alexa
-   abstract: This paper showcases 
+   abstract: >
+      We  showcase big data applications in artificial intelligence
+      assistants created by the 4 giants in the Industry:
+      Apple, Microsoft, Google and Amazon. 
    url: https://github.com/bigdata-i523/hid233/paper2/paper2.pdf
-   type: sharelatex
-   status: not started yet
-```
-
-# Project 
-
-```
-project:
-   type: project
-   author: 
-   - Wang, Jiaan (Jervis)
-   hid:
-   - 233
-   title: still thinking
-   abstract: This paper showcases 
-   url: https://github.com/bigdata-i523/pid000/project/report.pdf
-   type: sharelatex
-   status: not started yet 
+   type: latex
+   status: in progress
 ```

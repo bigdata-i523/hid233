@@ -3,7 +3,7 @@
 ```
 owner:
     hid: 233
-    name: Wang, Jiaan(Jervis)
+    name: Wang, Jiaan (Jervis)
     url: https://github.com/bigdata-i523/hid233
 ```
 
@@ -12,7 +12,7 @@ owner:
 ```
 paper1:
    author: 
-   - Wang, Jiaan(Jervis)
+   - Wang, Jiaan (Jervis)
    hid:
    - 233
    title: Big Data Applications in Entertainment Industry
@@ -27,12 +27,12 @@ paper1:
 ```
 paper2:
    author: 
-   - Wang, Jiaan(Jervis)
+   - Wang, Jiaan (Jervis)
    hid:
    - 233
    title: Big Data in Virtual Assistants: Siri vs Cortana vs Google Assistant vs Amazon Alexa
    abstract: This paper showcases 
-   url: https://github.com/bigdata-i523/hid233/paper2/paper2.pdf   
+   url: https://github.com/bigdata-i523/hid233/paper2/paper2.pdf
    type: sharelatex
    status: not started yet
 ```
@@ -40,11 +40,10 @@ paper2:
 # Project 
 
 ```
-paper2:
+project:
    type: project
-   type: report
    author: 
-   - Wang, Jiaan(Jervis)
+   - Wang, Jiaan (Jervis)
    hid:
    - 233
    title: still thinking

@@ -30,7 +30,7 @@ paper2:
    - Wang, Jiaan (Jervis)
    hid:
    - 233
-   title: Big Data in Virtual Assistants: Siri vs Cortana vs Google Assistant vs Amazon Alexa
+   title: Big Data in Virtual Assistants - Siri vs Cortana vs Google Assistant vs Amazon Alexa
    abstract: This paper showcases 
    url: https://github.com/bigdata-i523/hid233/paper2/paper2.pdf
    type: sharelatex

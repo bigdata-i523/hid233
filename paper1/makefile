@@ -1,4 +1,4 @@
-FILE=report
+FILE=paper1
 
 all:
 	pdflatex ${FILE}

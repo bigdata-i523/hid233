@@ -21,7 +21,7 @@ paper1:
    type: latex
    status: in progress
 ```
-   
+
 # Paper 2
 
 ```
@@ -36,6 +36,22 @@ paper2:
       assistants created by the 4 giants in the Industry:
       Apple, Microsoft, Google and Amazon. 
    url: https://github.com/bigdata-i523/hid233/paper2/paper2.pdf
+   type: latex
+   status: in progress
+```
+
+# Project 
+
+```
+project:
+   type: project
+   author: 
+   - Wang, Jiaan (Jervis)
+   pid:
+   - 000
+   title: 
+   abstract: This paper showcases  
+   url: https://github.com/bigdata-i523/pid000/project/report.pdf
    type: latex
    status: in progress
 ```

@@ -15,7 +15,7 @@ paper1:
    - Wang, Jiaan (Jervis)
    hid:
    - 233
-   title: Big Data Applications in Entertainment Industry
+   title: Big Data Applications in Media and Entertainment Industry
    abstract: This paper showcases how big data is used in the recommendation systems.
    url: https://github.com/bigdata-i523/hid233/paper1/paper1.pdf
    type: latex

@@ -1,6 +1,6 @@
 Title: 
 
-Author: Wang, Jiaan (Jervis)
+Author: Wang, Jiaan
 
 HID: 233
 

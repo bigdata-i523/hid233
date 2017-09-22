@@ -1,6 +1,6 @@
 Title: Big Data Applications in Media and Entertainment Industry
 
-Author: Wang, Jiaan (Jervis)
+Author: Wang, Jiaan
 
 HID: 233
 

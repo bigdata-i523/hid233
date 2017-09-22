@@ -1,6 +1,6 @@
 Title: Big Data in Virtual Assistants: Siri vs Cortana vs Google Assistant vs Amazon Alexa
 
-Author: Wang, Jiaan (Jervis)
+Author: Wang, Jiaan
 
 HID: 233
 

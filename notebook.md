@@ -21,3 +21,11 @@
 * 09/11/17 Read sections on LaTex and Bibliography Management
 * 09/13/17 Updated LyX, JabRef and MiKTEX
 * 09/18/17 Read sections on reStructured Text, Markdown, Basic Emacs and Report Format 
+
+# Meetings
+
+* 08/25/2017 Meeting: Attended class meeting for residential students
+* 09/1/2017 Meeting: Attended class meeting for residential students
+* 09/8/2017 Meeting: Attended class meeting for residential students
+* 09/15/2017 Meeting: Attended class meeting for residential students
+* 09/22/2017 Meeting: Attended class meeting for residential students

@@ -29,3 +29,9 @@
 * 09/08/2017 Meeting: Attended class meeting for residential students
 * 09/15/2017 Meeting: Attended class meeting for residential students
 * 09/22/2017 Meeting: Attended class meeting for residential students
+
+# Location
+
+* Address: Bloomington IN, 3209 E 10th st
+* Latitude: 39.173413
+* Longitude: -86.494256 

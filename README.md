@@ -27,7 +27,7 @@ paper1:
       of media and entertainment industry. 
    url: https://github.com/bigdata-i523/hid233/paper1/report.pdf
    type: latex
-   status: in progress
+   status: in progress (40%)
 ```
 
 # Paper 2

@@ -18,7 +18,13 @@ paper1:
    hid:
    - 233
    title: Big Data Applications in Media and Entertainment Industry
-   abstract: This paper showcases how big data is used in the recommendation systems.
+   abstract: >
+      This paper demonstrates the growth of big data and its various applications 
+      in media and entertainment industry. We showcases the rapid surge of big data 
+      and the increasing need for big data technologies. We also describes the problems 
+      that come with big data and its challenges in the industry. We then present 
+      various utilization of big data and why big data is important in the advancement 
+      of media and entertainment industry. 
    url: https://github.com/bigdata-i523/hid233/paper1/report.pdf
    type: latex
    status: in progress

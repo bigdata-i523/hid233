@@ -2,6 +2,8 @@
 
 * 08/30/17 Read the entire class organization section 
 * 09/19/17 Gathered resources on Paper 1
+* 09/23/17 Added some bibliographies for Paper 1
+* 09/25/17 Added some contents from gathered resources for Paper 1
 
 # Theory
 

@@ -4,6 +4,7 @@
 * 09/19/17 Gathered resources on Paper 1
 * 09/23/17 Added some bibliographies for Paper 1
 * 09/25/17 Added some contents from gathered resources for Paper 1
+* 09/28/17 Gathered and added more bibliography resources for Paper 1
 
 # Theory
 

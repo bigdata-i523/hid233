@@ -28,6 +28,7 @@ paper1:
    url: https://github.com/bigdata-i523/hid233/paper1/report.pdf
    type: latex
    status: in progress (40%)
+   chapter: Media
 ```
 
 # Paper 2

@@ -1,4 +1,4 @@
-#Credit to Mohan Mahendrakar, hid326 and Gregor von Laszewsk
+#Credit to Mohan Mahendrakar: hid326 and Gregor von Laszewsk
 
 import yaml
 import sys

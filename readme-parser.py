@@ -1,8 +1,12 @@
-#Credit to Mohan Mahendrakar: hid326 and Gregor von Laszewsk
-
 import yaml
+import json
 import sys
 from pprint import pprint
+
+def banner(msg):
+    print (79 * '#')
+    print ('#', msg)
+    print (79 * '#')
 
 # variables/counters declaration
 in_yaml = False
@@ -36,40 +40,29 @@ for line in lines:
     elif in_yaml:
         content.append(line)
         
-    
-    
 s = '\n'.join(content)
 
-d = yaml.load(s)
+if '\t' in s:
+    print("ERROR: your file contains a TAB")
+    print(s.replace("\t", "<TAB>"))
 
-pprint (d)
+try:
 
+    banner('text')
+    print (s)
+    
+    d = yaml.load(s)
 
-'''
-    # check the line in yaml format or not
-    if in_yaml:
-        content.append(yaml.load(line))
+    banner('dict')
+    pprint (d)
 
-    if not in_yaml and line.startswith("```"):
-        in_yaml = True
-        try:
-            content.append(yaml.load(line))
-        except:
-            print(counter, line)
-            print("Line is not in yaml format")
-
-    if in_yaml and not line.startswith("```"):
-        in_yaml = False
-
-    # check for the tab in the line.
-    if "\t" in line:
-        print("ERROR: tab found in line", counter, line)
-        
-    # check for space in first column of the line! ignore if the line is empty 
-    # and has 2 to 4 spaces in the begining of the line
-    if line.startswith(" ") and line not in ['\n'] \
-        and not line.startswith("   ") \
-        and not line.startswith("  ") \
-        and not line.startswith("    "):
-        print("ERROR: space found in first column of the line", counter, line)
-'''
+    banner('yaml')
+    print (yaml.dump(d, default_flow_style=False))
+    
+    
+    banner('json')
+    print(json.dumps(d, indent=4))
+    
+except Exception as e:
+    print ("ERROR: you have a problem in your file")
+    print (e)

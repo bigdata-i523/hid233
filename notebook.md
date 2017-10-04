@@ -5,11 +5,15 @@
 * 09/23/17 Added some bibliographies for Paper 1
 * 09/25/17 Added some contents from gathered resources for Paper 1
 * 09/28/17 Gathered and added more bibliography resources for Paper 1
+* 09/29/17 Assigned group assignment: data formats during residential meeting
+* 10/01/17 Updated README.md with a new abstract for Paper 1
+* 10/02/17 Shared a Google doc with the team and managed to answer the first question
 
 # Theory
 
 * 09/05/17 - 09/07/17 Read and watched all videos in the Theory Introduction section
 * 09/15/17 – 09/20/17 Read and watched all videos in the Overview of Data Science section
+* 10/01/17 Update: hasn't watched any videos so far due to busy schedule, will continue after completion of Paper 1
 
 # Practice
 
@@ -17,6 +21,7 @@
 * 09/01/17 Installed Python 2 and 3 via pyenv on Windows Virtual Box
 * 09/12/17 Read section on Python 
 * 09/18/17 Read sections on Python, Code Management and IoT
+* 10/02/17 Added readme-parser.py on github, provided on Piazza by Professor Gregor
 
 # Writing
 
@@ -24,6 +29,7 @@
 * 09/11/17 Read sections on LaTex and Bibliography Management
 * 09/13/17 Updated LyX, JabRef and MiKTEX
 * 09/18/17 Read sections on reStructured Text, Markdown, Basic Emacs and Report Format 
+* 09/19/17 Watched introductory vidoes on ShareLaTex and JabRef
 
 # Meetings
 

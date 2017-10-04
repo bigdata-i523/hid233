@@ -9,6 +9,7 @@
 * 10/01/17 Updated README.md with a new abstract for Paper 1
 * 10/02/17 Shared a Google doc with the team and managed to answer the first question
 * 10/03/17 Updated report.bib and report.tex with more resources for Paper 1
+* 10/04/17 Updated Paper 1 with more contents and a new section called Challenges in Media and Entertainment Industry
 
 # Theory
 

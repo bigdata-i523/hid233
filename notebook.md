@@ -8,6 +8,7 @@
 * 09/29/17 Assigned group assignment: data formats during residential meeting
 * 10/01/17 Updated README.md with a new abstract for Paper 1
 * 10/02/17 Shared a Google doc with the team and managed to answer the first question
+* 10/03/17 Updated report.bib and report.tex with more resources for Paper 1
 
 # Theory
 

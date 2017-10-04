@@ -21,6 +21,7 @@
 * 09/01/17 Installed Python 2 and 3 via pyenv on Windows Virtual Box
 * 09/12/17 Read section on Python 
 * 09/18/17 Read sections on Python, Code Management and IoT
+* 10/01/17 Installed Cloudmesh CMD5 on virtual machine
 * 10/02/17 Added readme-parser.py on github, provided on Piazza by Professor Gregor
 
 # Writing
@@ -44,4 +45,4 @@
 
 * Address: Bloomington IN, 3209 E 10th st
 * Latitude: 39.173413
-* Longitude: -86.494256 
+* Longitude: -86.494256

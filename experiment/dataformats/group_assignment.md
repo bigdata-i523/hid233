@@ -14,10 +14,9 @@ Geng Niu
 # Details: 
 ```
 yaml, json, xml
-> 
-1. Prepare a collaborative answer about what these data formats are and how they help. 
-Contrast them and identify where you want to use the one or the other
 ```
+
+# 1. Prepare a collaborative answer about what these data formats are and how they help. Contrast them and identify where you want to use the one or the other
 
 # Answer: 
 * YAML:
@@ -154,7 +153,6 @@ https://www.w3schools.com/xml/xml_whatis.asp
 ```
 
 * Comparison of yaml, json and xml:
-* Comparison of data formats:
 ```
 YAML stands for “YAML Ain’t Markup Language“.
 JSON stands for “JavaScript Object Notation“.
@@ -183,11 +181,7 @@ http://www.electronicdesign.com/dev-tools/whats-difference-between-json-xml-and-
 http://www.csestack.org/yaml-vs-json-vs-xml-difference/
 ```
 
-```
-> 
-2. As we do lots of python, how does python use configurations. Is there a better 
-alternative to use configurations in python?
-```
+# 2. As we do lots of python, how does python use configurations. Is there a better alternative to use configurations in python?
 
 # Answer:
 ```

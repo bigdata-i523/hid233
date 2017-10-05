@@ -29,11 +29,8 @@ https://learn.getgrav.org/advanced/yaml
 https://www.tutorialspoint.com/grav/grav_yaml_syntax.htm
 http://www.yamllint.com/
 
-
-
-
 YAML example:
-# Employee records
+Employee records
 -  Dhawal:
     name: Dhawal Chaturvedi
     job: Developer
@@ -62,10 +59,6 @@ https://www.w3schools.com/js/js_json_intro.asp
 http://www.json.org/
 http://www.electronicdesign.com/dev-tools/whats-difference-between-json-xml-and-yaml
 http://bob.ippoli.to/archives/2005/12/05/remote-json-jsonp/
-
-
-
-
 
 Json Example:
 {
@@ -136,11 +129,6 @@ http://www.electronicdesign.com/dev-tools/whats-difference-between-json-xml-and-
 http://www.csestack.org/yaml-vs-json-vs-xml-difference/
  
 
-
-
-
-
-
 2. As we do lots of python, how does python use configurations. Is there a better alternative to use configurations in python?
 
 Answer:
@@ -164,7 +152,6 @@ Within the actual code, it can be used like this:
 #!/usr/bin/env python
     import databaseconfig as cfg
     connect(cfg.mysql['host'], cfg.mysql['user'], cfg.mysql['password'])
-
 
 
 4 Ways to manage the configuration in Python

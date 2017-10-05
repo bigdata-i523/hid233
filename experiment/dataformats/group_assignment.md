@@ -15,7 +15,9 @@ Geng Niu
 ```
 yaml, json, xml
 > 
-1. Prepare a collaborative answer about what these data formats are and how they help. Contrast them and identify where you want to use the one or the other
+1. Prepare a collaborative answer about what these data formats are and how they help. 
+Contrast them and identify where you want to use the one or the other
+```
 
 # Answer: 
 ```

@@ -211,17 +211,19 @@ Within the actual code, it can be used like this:
 
 * 4 Ways to manage the configuration in Python
 ```
-* Using built-in data structure
-    It uses the built-in data structure for managing the configuration.
+1. Using built-in data structure
+It uses the built-in data structure for managing the configuration.
 
-* Using external configuration file such as INI, JSON, XML or YAML
-    It loads the configuration values defined in the external file, not the built-in data structures. 
+2. Using external configuration file such as INI, JSON, XML or YAML
+It loads the configuration values defined in the external file, not the built-in data structures. 
 
-* Using environment variables
-    It uses system environment variables as configuration values.
+3. Using environment variables
+It uses system environment variables as configuration values.
 
-* Using dynamic loading
-    This is a more advanced way of using built-in data structures . In this approach, the config file does not have to located on importable path and can even be located on other repository.
+4. Using dynamic loading
+> This is a more advanced way of using built-in data structures . In this approach, 
+the config file does not have to located on importable path and can even be located on 
+other repository.
 ```
 
 *  Helpful links:

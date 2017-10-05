@@ -1,56 +1,69 @@
-I523 Big data Applications 
-Group Assignment: Data Formats
+# I523 Big data Applications 
+
+# Group Assignment: Data Formats
+
+```
 Project members:
-Jiaan Wang
-Dhawal Chaturvedi
-Matthew Millard 
-Weixuan Wang
-Qiaoyi Liu
-Shiqi Shen
-Geng Niu
+    Jiaan Wang
+    Dhawal Chaturvedi
+    Matthew Millard 
+    Weixuan Wang
+    Qiaoyi Liu
+    Shiqi Shen
+    Geng Niu
+```
 
-Details: 
-yaml, json, xml
-1. Prepare a collaborative answer about what these data formats are and how they help. Contrast them and identify where you want to use the one or the other
+# Details: 
 
-Answer: 
-YAML:
-YAML is a data serialization language. Data serialization is the concept of converting structured data into a format that allows it to be shared or stored in such a way that its original structure can be recovered.
+```
+    yaml, json, xml >
+    1. Prepare a collaborative answer about what these data formats are and how they help. Contrast them and identify where you want to use         the one or the other.
+```
+
+# Answer: 
+
+```
+    YAML: >
+    YAML is a data serialization language. Data serialization is the concept of converting structured data into a format that allows it to be shared or stored in such a way that its original structure can be recovered.
 It uses indentation format to define the structure just like python.
 YAML was initially called Yet Another Markup Language, referencing its purpose as a markup language, but it was then repurposed as YAML Ain't Markup Language , to distinguish its purpose as data-oriented, rather than document markup.
 It essentially allows you to provide powerful configuration settings, without having to learn a more complex code type like CSS, JavaScript, and PHP.
-YAML doesn't support the use of tabs. Instead of tabs, it uses spaces which are not supported universally.
-YAML is case sensitive.
-YAML supports some basic data types which can be used with programming languages such as : Scalars, Sequences and Mappings.
+    YAML doesn't support the use of tabs. Instead of tabs, it uses spaces which are not supported universally.
+    YAML is case sensitive.
+    YAML supports some basic data types which can be used with programming languages such as : Scalars, Sequences and Mappings.
+```
 
-Helpful links:
-https://en.wikipedia.org/wiki/YAML
-https://learn.getgrav.org/advanced/yaml 
-https://www.tutorialspoint.com/grav/grav_yaml_syntax.htm
-http://www.yamllint.com/
+# Helpful links:
 
+```
+    https://en.wikipedia.org/wiki/YAML 
+    https://learn.getgrav.org/advanced/yaml 
+    https://www.tutorialspoint.com/grav/grav_yaml_syntax.htm
+    http://www.yamllint.com/
+```
 
+# YAML example:
 
+```
+    # Employee records
+    -  Dhawal:
+        name: Dhawal Chaturvedi
+        job: Developer
+        skills:
+        - Python
+        - C
+        - Java
+    -  Weixuan:
+        name: Weixuan Wang
+        job: Developer
+        skills:
+        - lisp
+        - fortran
+        - erlang
+```
 
-YAML example:
-# Employee records
--  Dhawal:
-    name: Dhawal Chaturvedi
-    job: Developer
-    skills:
-      - Python
-      - C
-      - Java
--  Weixuan:
-    name: Weixuan Wang
-    job: Developer
-    skills:
-      - lisp
-      - fortran
-      - erlang
-
-
-JSON:
+```
+JSON: >
 JSON stands for JavaScript Object Notation.
 It is easy for humans to read and write. It is easy for machines to parse and generate.
 JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. 

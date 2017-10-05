@@ -22,18 +22,22 @@ Contrast them and identify where you want to use the one or the other
 # Answer: 
 * YAML:
 ```
-> YAML is a data serialization language. Data serialization is the concept of converting 
+> 
+YAML is a data serialization language. Data serialization is the concept of converting 
 structured data into a format that allows it to be shared or stored in such a way that 
 its original structure can be recovered.
 It uses indentation format to define the structure just like python.
-> YAML was initially called Yet Another Markup Language, referencing its purpose as a markup 
+> 
+YAML was initially called Yet Another Markup Language, referencing its purpose as a markup 
 language, but it was then repurposed as YAML Ain't Markup Language , to distinguish its purpose 
 as data-oriented, rather than document markup.
-> It essentially allows you to provide powerful configuration settings, without having to learn 
+> 
+It essentially allows you to provide powerful configuration settings, without having to learn 
 a more complex code type like CSS, JavaScript, and PHP.
 YAML doesn't support the use of tabs. Instead of tabs, it uses spaces which are not supported universally.
 YAML is case sensitive.
-> YAML supports some basic data types which can be used with programming languages such as : 
+> 
+YAML supports some basic data types which can be used with programming languages such as : 
 Scalars, Sequences and Mappings.
 ```
 
@@ -68,10 +72,12 @@ http://www.yamllint.com/
 ```
 JSON stands for JavaScript Object Notation.
 It is easy for humans to read and write. It is easy for machines to parse and generate.
-> JSON is a text format that is completely language independent but uses conventions 
+> 
+JSON is a text format that is completely language independent but uses conventions 
 that are familiar to programmers of the C-family of languages, including C, C++, C#, 
 Java, JavaScript, Perl, Python, and many others. 
-> JSON’s syntax matches JavaScript, but typically a parse function is used to convert 
+> 
+JSON’s syntax matches JavaScript, but typically a parse function is used to convert 
 JSON text to a JavaScript object. This adds a level of protection from malicious code 
 since JSON data is often sent over the Internet on an unsecure channel. It also addresses 
 bad data issues.
@@ -113,7 +119,8 @@ http://bob.ippoli.to/archives/2005/12/05/remote-json-jsonp/
 
 * XML:
 ```
-> XML, or Extensible Markup Language, is a markup language that you can use to create 
+> 
+XML, or Extensible Markup Language, is a markup language that you can use to create 
 your own tags. It was created by the World Wide Web Consortium (W3C) to overcome the 
 limitations of HTML, the Hypertext Markup Language that is the basis for all Web pages. 
 Like HTML, XML is based on SGML -- Standard Generalized Markup Language. Although SGML 
@@ -153,9 +160,11 @@ YAML stands for “YAML Ain’t Markup Language“.
 JSON stands for “JavaScript Object Notation“.
 XML is “eXtensible Markup Language” .
 XML uses a tag to define the structure just like HTML.
-> YAML uses indentation to define the structured data. So the each block in the YAML is 
+> 
+YAML uses indentation to define the structured data. So the each block in the YAML is 
 differentiated by the number of white spaces.
-> All three mentioned serialization language has same extension as their name. 
+> 
+All three mentioned serialization language has same extension as their name. 
 (.yaml for YAML, .json for JSON, .xml for XML). 
 ```
 
@@ -163,7 +172,8 @@ differentiated by the number of white spaces.
 ```
 When you talk about Javascript, JSON is most prominent serialization language.
 For Java programming, you must have seen XML is widely used.
-> Python has same indentation technique same as YAML. So Pythonista finds YAML more friendly 
+> 
+Python has same indentation technique same as YAML. So Pythonista finds YAML more friendly 
 than other serialization languages.
 ```
 
@@ -174,13 +184,15 @@ http://www.csestack.org/yaml-vs-json-vs-xml-difference/
 ```
 
 ```
-> 2. As we do lots of python, how does python use configurations. Is there a better 
+> 
+2. As we do lots of python, how does python use configurations. Is there a better 
 alternative to use configurations in python?
 ```
 
 # Answer:
 ```
-> The simplest way to write configuration files is to simply write a separate file that 
+> 
+The simplest way to write configuration files is to simply write a separate file that 
 contains Python code. It could be called something like databaseconfig.py. Then the 
 line *config.py could be added to your .gitignore file to avoid uploading it accidentally.
 A configuration file could look like this:

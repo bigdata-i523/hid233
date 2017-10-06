@@ -1,15 +1,15 @@
 # Group Assignment: Data Formats
 
 # Project members:
-```
-Jiaan Wang
-Dhawal Chaturvedi
-Matthew Millard 
-Weixuan Wang
-Qiaoyi Liu
-Shiqi Shen
-Geng Niu
-```
+
+* Jiaan Wang
+* Dhawal Chaturvedi
+* Matthew Millard 
+* Weixuan Wang
+* Qiaoyi Liu
+* Shiqi Shen
+* Geng Niu
+
 
 # Details: 
 ```

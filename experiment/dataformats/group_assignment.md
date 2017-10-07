@@ -18,7 +18,6 @@ yaml, json, xml
 
 # Answer: 
 * YAML:
-```
 > 
 YAML is a data serialization language. Data serialization is the concept of converting 
 structured data into a format that allows it to be shared or stored in such a way that 
@@ -36,7 +35,6 @@ YAML is case sensitive.
 > 
 YAML supports some basic data types which can be used with programming languages such as : 
 Scalars, Sequences and Mappings.
-```
 
 * Helpful links:
 ```

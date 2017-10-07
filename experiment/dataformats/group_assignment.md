@@ -18,6 +18,7 @@ yaml, json, xml
 
 # Answer: 
 * YAML: 
+>
 YAML is a data serialization language. Data serialization is the concept of converting 
 structured data into a format that allows it to be shared or stored in such a way that 
 its original structure can be recovered.
@@ -36,12 +37,10 @@ YAML supports some basic data types which can be used with programming languages
 Scalars, Sequences and Mappings.
 
 * Helpful links:
-```
 https://en.wikipedia.org/wiki/YAML
 https://learn.getgrav.org/advanced/yaml 
 https://www.tutorialspoint.com/grav/grav_yaml_syntax.htm
 http://www.yamllint.com/
-```
 
 * YAML example:
 ```

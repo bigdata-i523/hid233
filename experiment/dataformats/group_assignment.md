@@ -17,8 +17,7 @@ yaml, json, xml
 # 1. Prepare a collaborative answer about what these data formats are and how they help. Contrast them and identify where you want to use the one or the other
 
 # Answer: 
-* YAML:
-> 
+* YAML: 
 YAML is a data serialization language. Data serialization is the concept of converting 
 structured data into a format that allows it to be shared or stored in such a way that 
 its original structure can be recovered.

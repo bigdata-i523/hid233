@@ -37,10 +37,12 @@ YAML supports some basic data types which can be used with programming languages
 Scalars, Sequences and Mappings.
 
 * Helpful links:
+```
 https://en.wikipedia.org/wiki/YAML
 https://learn.getgrav.org/advanced/yaml 
 https://www.tutorialspoint.com/grav/grav_yaml_syntax.htm
 http://www.yamllint.com/
+```
 
 * YAML example:
 ```
@@ -62,7 +64,6 @@ http://www.yamllint.com/
 ```
 
 * JSON: 
-```
 JSON stands for JavaScript Object Notation.
 It is easy for humans to read and write. It is easy for machines to parse and generate.
 > 
@@ -74,7 +75,6 @@ JSON’s syntax matches JavaScript, but typically a parse function is used to co
 JSON text to a JavaScript object. This adds a level of protection from malicious code 
 since JSON data is often sent over the Internet on an unsecure channel. It also addresses 
 bad data issues.
-```
 
 * Helpful links:
 ```
@@ -111,7 +111,6 @@ http://bob.ippoli.to/archives/2005/12/05/remote-json-jsonp/
 ```
 
 * XML:
-```
 > 
 XML, or Extensible Markup Language, is a markup language that you can use to create 
 your own tags. It was created by the World Wide Web Consortium (W3C) to overcome the 
@@ -127,7 +126,6 @@ XML was designed to describe data.
 XML tags are not predefined in XML. You must define your own tags.
 XML is self describing.
 XML uses a DTD (Document Type Definition) to formally describe the data.
-```
 
 * Helpful links:
 ```
@@ -147,7 +145,6 @@ https://www.w3schools.com/xml/xml_whatis.asp
 ```
 
 * Comparison of yaml, json and xml:
-```
 YAML stands for “YAML Ain’t Markup Language“.
 JSON stands for “JavaScript Object Notation“.
 XML is “eXtensible Markup Language” .
@@ -158,16 +155,13 @@ differentiated by the number of white spaces.
 > 
 All three mentioned serialization language has same extension as their name. 
 (.yaml for YAML, .json for JSON, .xml for XML). 
-```
 
 * Comparison of their usage:
-```
 When you talk about Javascript, JSON is most prominent serialization language.
 For Java programming, you must have seen XML is widely used.
 > 
 Python has same indentation technique same as YAML. So Pythonista finds YAML more friendly 
 than other serialization languages.
-```
 
 * Helpful links:
 ```
@@ -178,13 +172,13 @@ http://www.csestack.org/yaml-vs-json-vs-xml-difference/
 # 2. As we do lots of python, how does python use configurations. Is there a better alternative to use configurations in python?
 
 # Answer:
-```
 > 
 The simplest way to write configuration files is to simply write a separate file that 
 contains Python code. It could be called something like databaseconfig.py. Then the 
 line *config.py could be added to your .gitignore file to avoid uploading it accidentally.
 A configuration file could look like this:
 
+```
 #!/usr/bin/env python
     import preprocessing
     mysql = {'host': 'localhost',
@@ -195,16 +189,17 @@ A configuration file could look like this:
                                           preprocessing.dot_reduction,
                                           preprocessing.connect_lines]
     use_anonymous = True
+```
 
 Within the actual code, it can be used like this:
 
+```
 #!/usr/bin/env python
     import databaseconfig as cfg
     connect(cfg.mysql['host'], cfg.mysql['user'], cfg.mysql['password'])
 ```
 
 * 4 Ways to manage the configuration in Python
-```
 1. Using built-in data structure
 It uses the built-in data structure for managing the configuration.
 
@@ -218,7 +213,6 @@ It uses system environment variables as configuration values.
 > This is a more advanced way of using built-in data structures . In this approach, 
 the config file does not have to located on importable path and can even be located on 
 other repository.
-```
 
 *  Helpful links:
 ```

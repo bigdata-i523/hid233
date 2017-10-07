@@ -18,7 +18,8 @@ yaml, json, xml
 
 # Answer: 
 * YAML: 
-> YAML is a data serialization language. Data serialization is the concept of converting 
+> 
+YAML is a data serialization language. Data serialization is the concept of converting 
 structured data into a format that allows it to be shared or stored in such a way that 
 its original structure can be recovered.
 It uses indentation format to define the structure just like python.
@@ -71,7 +72,7 @@ It is easy for humans to read and write. It is easy for machines to parse and ge
 JSON is a text format that is completely language independent but uses conventions 
 that are familiar to programmers of the C-family of languages, including C, C++, C#, 
 Java, JavaScript, Perl, Python, and many others. 
-> 
+>
 JSON’s syntax matches JavaScript, but typically a parse function is used to convert 
 JSON text to a JavaScript object. This adds a level of protection from malicious code 
 since JSON data is often sent over the Internet on an unsecure channel. It also addresses 
@@ -129,7 +130,9 @@ XML is a markup language much like HTML.
 XML was designed to describe data.
 >
 XML tags are not predefined in XML. You must define your own tags.
+>
 XML is self describing.
+>
 XML uses a DTD (Document Type Definition) to formally describe the data.
 
 * Helpful links:
@@ -150,9 +153,13 @@ https://www.w3schools.com/xml/xml_whatis.asp
 ```
 
 * Comparison of yaml, json and xml:
-YAML stands for “YAML Ain’t Markup Language“.
-JSON stands for “JavaScript Object Notation“.
-XML is “eXtensible Markup Language” .
+>
+YAML stands for "YAML Ain’t Markup Language".
+>
+JSON stands for "JavaScript Object Notation".
+>
+XML is "eXtensible Markup Language".
+>
 XML uses a tag to define the structure just like HTML.
 > 
 YAML uses indentation to define the structured data. So the each block in the YAML is 
@@ -162,7 +169,9 @@ All three mentioned serialization language has same extension as their name.
 (.yaml for YAML, .json for JSON, .xml for XML). 
 
 * Comparison of their usage:
+>
 When you talk about Javascript, JSON is most prominent serialization language.
+>
 For Java programming, you must have seen XML is widely used.
 > 
 Python has same indentation technique same as YAML. So Pythonista finds YAML more friendly 

@@ -18,8 +18,7 @@ yaml, json, xml
 
 # Answer: 
 * YAML: 
->
-YAML is a data serialization language. Data serialization is the concept of converting 
+> YAML is a data serialization language. Data serialization is the concept of converting 
 structured data into a format that allows it to be shared or stored in such a way that 
 its original structure can be recovered.
 It uses indentation format to define the structure just like python.
@@ -64,7 +63,9 @@ http://www.yamllint.com/
 ```
 
 * JSON: 
+>
 JSON stands for JavaScript Object Notation.
+>
 It is easy for humans to read and write. It is easy for machines to parse and generate.
 > 
 JSON is a text format that is completely language independent but uses conventions 
@@ -120,9 +121,13 @@ has been used in the publishing industry for decades, its perceived complexity i
 many people that otherwise might have used it. The XML standard is a flexible way to 
 create information formats and electronically share structured data via the public Internet, 
 as well as via corporate networks.
+>
 XML stands for EXtensible Markup Language
+>
 XML is a markup language much like HTML.
+>
 XML was designed to describe data.
+>
 XML tags are not predefined in XML. You must define your own tags.
 XML is self describing.
 XML uses a DTD (Document Type Definition) to formally describe the data.

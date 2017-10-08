@@ -8,4 +8,4 @@ E-mail: jervwang@indiana.edu
 
 Format: latex 
 
-Status: nearly complete (99%)
+Status: completed (100%)

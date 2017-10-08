@@ -41,9 +41,9 @@ paper2:
    - 233
    title: Big Data in Virtual Assistants - Siri vs Cortana vs Google Assistant vs Alexa
    abstract: >
-      This paper showcases big data applications in artificial intelligence
-      assistants created by the 4 giants in the Industry:
-      Apple, Microsoft, Google and Amazon. 
+      Big data applications in artificial intelligence assistants created by the 
+      4 giants in the Industry: Apple, Microsoft, Google and Amazon has always 
+      been competing. 
    url: https://github.com/bigdata-i523/hid233/paper2/report.pdf
    type: latex
    status: in progress

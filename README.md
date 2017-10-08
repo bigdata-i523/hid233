@@ -20,11 +20,11 @@ paper1:
    title: Big Data Applications in Media and Entertainment Industry
    abstract: >
       The growth of big data and its various applications in media and entertainment 
-    industry has been swift in recent years as well as the rapid surge of big data 
-    and the increasing need for big data technologies. We describe the problems 
-    that come with big data and its challenges in the industry. We then present 
-    various utilization of big data and why big data is important to the advancement 
-    of media and entertainment industry.  
+      industry has been swift in recent years as well as the rapid surge of big data 
+      and the increasing need for big data technologies. We describe the problems 
+      that come with big data and its challenges in the industry. We then present 
+      various utilization of big data and why big data is important to the advancement 
+      of media and entertainment industry.  
    url: https://github.com/bigdata-i523/hid233/paper1/report.pdf
    type: latex
    status: completed (100%)
@@ -47,6 +47,7 @@ paper2:
    url: https://github.com/bigdata-i523/hid233/paper2/report.pdf
    type: latex
    status: in progress
+   chapter: technology
 ```
 
 # Project 

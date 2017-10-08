@@ -12,6 +12,7 @@
 * 10/04/17 Updated Paper 1 with more contents and a new section called Challenges in Media and Entertainment Industry
 * 10/05/17 Completed group assignment: data formats and uploaded the answer on github in experiment/dataformats/group_assignment.md
 * 10/06/17 Revised report.tex and report.bib for Paper 1
+* 10/07/17 Paper 1 completed and uploaded
 
 # Theory
 

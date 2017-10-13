@@ -1,4 +1,4 @@
-Title: Big Data in Virtual Assistants: Siri vs Cortana vs Google Assistant vs Amazon Alexa
+Title: Big Data in Artificial Intelligence Assistants
 
 Author: Wang, Jiaan
 

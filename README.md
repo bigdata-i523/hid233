@@ -39,7 +39,7 @@ paper2:
    - Wang, Jiaan
    hid:
    - 233
-   title: Big Data in Virtual Assistants - Siri vs Cortana vs Google Assistant vs Alexa
+   title: Big Data in Artificial Intelligence Assistants
    abstract: >
       Big data applications in artificial intelligence assistants created by the 
       4 giants in the Industry: Apple, Microsoft, Google and Amazon has always 

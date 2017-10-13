@@ -46,7 +46,7 @@ paper2:
       been competing. 
    url: https://github.com/bigdata-i523/hid233/paper2/report.pdf
    type: latex
-   status: in progress
+   status: 10%
    chapter: technology
 ```
 

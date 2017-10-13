@@ -1,4 +1,4 @@
-Title: Big Data in Artificial Intelligence Assistants
+Title: Big Data Applications in Artificial Intelligence Assistants
 
 Author: Wang, Jiaan
 

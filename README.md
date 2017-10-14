@@ -61,9 +61,9 @@ project:
    - 233
    pid:
    - 000
-   title: 
-   abstract: This paper showcases (TBD) 
+   title: TBD
+   abstract: TBD
    url: https://github.com/bigdata-i523/pid000/project/report.pdf
    type: latex
-   status: in progress
+   status: 0%
 ```

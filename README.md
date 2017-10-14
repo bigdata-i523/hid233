@@ -41,9 +41,7 @@ paper2:
    - 233
    title: Big Data Applications in Virtual Assistants
    abstract: >
-      Big data applications in artificial intelligence assistants created by the 
-      4 giants in the Industry: Apple, Microsoft, Google and Amazon has always 
-      been competing. 
+      Big data applications in virtual assistants 
    url: https://github.com/bigdata-i523/hid233/paper2/report.pdf
    type: latex
    status: 10%

@@ -13,6 +13,7 @@
 * 10/05/17 Completed group assignment: data formats and uploaded the answer on github in experiment/dataformats/group_assignment.md
 * 10/06/17 Revised report.tex and report.bib for Paper 1
 * 10/07/17 Paper 1 completed and uploaded
+* 10/14/17 Paper 2 started, relevant files and templates uploaded on github under paper2 folder
 
 # Theory
 
@@ -51,6 +52,7 @@
 * 09/15/2017 Meeting: Attended class meeting for residential students
 * 09/22/2017 Meeting: Attended class meeting for residential students
 * 09/29/2017 Meeting: Attended class meeting for residential students
+* 10/13/2017 Meeting: Attended class meeting for residential students
 
 # Location
 

@@ -1,0 +1,44 @@
+---
+owner:
+    hid: 233
+    name: Wang, Jiaan
+    url: https://github.com/bigdata-i523/hid233
+paper1:
+    abstract: "The growth of big data and its various applications in media and entertainment\
+        \  industry has been swift in recent years as well as the rapid surge of big\
+        \ data  and the increasing need for big data technologies. We describe the\
+        \ problems  that come with big data and its challenges in the industry. We\
+        \ then present  various utilization of big data and why big data is important\
+        \ to the advancement  of media and entertainment industry.  \n"
+    author:
+        - Wang, Jiaan
+    chapter: Media
+    hid:
+        - 233
+    status: 100%
+    title: Big Data Applications in Media and Entertainment Industry
+    type: latex
+    url: https://github.com/bigdata-i523/hid233/paper1/report.pdf
+paper2:
+    abstract: "Big data applications in virtual assistants \n"
+    author:
+        - Wang, Jiaan
+    chapter: technology
+    hid:
+        - 233
+    status: 10%
+    title: Big Data Applications in Virtual Assistants
+    type: latex
+    url: https://github.com/bigdata-i523/hid233/paper2/report.pdf
+project:
+    abstract: TBD
+    author:
+        - Wang, Jiaan
+    hid:
+        - 233
+    pid:
+        - 0
+    status: 0%
+    title: TBD
+    type: latex
+    url: https://github.com/bigdata-i523/pid000/project/report.pdf

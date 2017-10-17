@@ -2,6 +2,11 @@
 owner:
     hid: 233
     name: Wang, Jiaan
+    firstname: Jiaan
+    lastname: Wang
+    longitude: -86.494256
+    latitude: 39.173413
+    city: Bloomington, IN, U.S.A.
     url: https://github.com/bigdata-i523/hid233
 paper1:
     abstract: >

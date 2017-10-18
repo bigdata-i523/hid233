@@ -1,9 +1,21 @@
+import requests
+import re
+import pandas as pa
 import matplotlib.pyplot as plt
 
-correction_time = (16,11,6,6,5,5,5,5,4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
-                   1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
-student_category = (2,3,2,3,2,3,3,1,3,2,2,2,2,2,3,3,3,2,2,2,3,3,2,2,3,3,3,1,3,2,2,3,3,3,3,3,1,2,2,2,3,3,3,
-                    3,1,3,3,2,2,2,2,2,3,3,3,3,1,3,3,2,2,3,3,3,3,1,3,3,2,2,1,3,3,1,3,2,3,3,3)
+link = 'https://raw.githubusercontent.com/bigdata-i523/hid233/master/experiment/classification/classification.txt'
+d = requests.get(link).text
+
+dd = re.split('\n|, ', d)
+pair = [i.split(' ') for i in d]
+pair = pair[:-1]
+
+correction_time = []
+student_category = []
+
+for i in pairs: 
+    correction_time.append(pa.to_numeric(i[0]))
+    student_category.append(pa.to_numeric(i[1]))
 
 plt.scatter(correction_time, student_category)
 plt.title("Classification of Student Corrections")

@@ -6,14 +6,14 @@ import matplotlib.pyplot as plt
 link = 'https://raw.githubusercontent.com/bigdata-i523/hid233/master/experiment/classification/classification.txt'
 d = requests.get(link).text
 
-dd = re.split('\n|, ', d)
+d = re.split('\n|, ', d)
 pair = [i.split(' ') for i in d]
 pair = pair[:-1]
 
 correction_time = []
 student_category = []
 
-for i in pairs: 
+for i in pair: 
     correction_time.append(pa.to_numeric(i[0]))
     student_category.append(pa.to_numeric(i[1]))
 

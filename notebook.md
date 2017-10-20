@@ -14,14 +14,15 @@
 * 10/06/17 Revised report.tex and report.bib for Paper 1
 * 10/07/17 Paper 1 completed and uploaded
 * 10/14/17 Paper 2 started, relevant files and templates uploaded on github under paper2 folder
+* 10/19/17 Added some references for Paper 2, report.bib modified
+* 10/19/17 Begin Paper 1 revision
 
 # Theory
 
 * 09/05/17 - 09/07/17 Read and watched all videos in the Theory Introduction section
 * 09/15/17 – 09/20/17 Read and watched all videos in the Overview of Data Science section
 * 10/01/17 Update: hasn't watched any videos so far due to busy schedule, will continue after completion of Paper 1
-* The following is a plan, will update as time goes by
-* 10/15/17 - 10/21/17 Will read and watch all videos in the Big Data Use Cases Survey section
+* 10/15/17 - 10/21/17 Read and watched all videos in the Big Data Use Cases Survey section
 * 10/22/17 - 10/28/17 Will read and watch all videos in the Health Informatics Case Study and e-Commerce and LifeStyle Case Study section
 * 10/29/17 - 11/04/17 Will read and watch all videos in the Physics Case Study and Radar Case Study section
 * 11/05/17 - 11/11/17 Will read and watch all videos in the Sensors Case Study and Sports Case Study section
@@ -53,6 +54,7 @@
 * 09/22/2017 Meeting: Attended class meeting for residential students
 * 09/29/2017 Meeting: Attended class meeting for residential students
 * 10/13/2017 Meeting: Attended class meeting for residential students
+* 10/20/2017 Meeting: Attended class meeting for residential students
 
 # Location
 

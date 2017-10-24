@@ -16,6 +16,7 @@
 * 10/14/17 Paper 2 started, relevant files and templates uploaded on github under paper2 folder
 * 10/19/17 Added some references for Paper 2, report.bib modified
 * 10/19/17 Begin Paper 1 revision
+* 10/23/17 Paper 1 revision completed and submitted 
 
 # Theory
 

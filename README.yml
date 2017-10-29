@@ -38,14 +38,23 @@ paper2:
     type: latex
     url: https://github.com/bigdata-i523/hid233/blob/master/paper2/report.tex
 project:
-    abstract: TBD
+    abstract: >
+        For years, people have been trying to reduce their automobile insurance 
+        bills. Insurance companies claim that price will be reduced for good 
+        drivers and raised for bad ones. However, inaccuracies in their data 
+        predictions lead to the exact opposite. The dataset being used is released 
+        by Porto Seguro, an auto and homeowner insurance company from Brazil. It 
+        consists of information from several hundred thousands of policyholders. 
+        The goal is to predict the probability an auto insurance policyholder 
+        files a claim the next year using classification algorithms. A good 
+        prediction with decent accuracy can correctly adjust prices for policyholders.
     author:
-        - Wang, Jiaan
+        - Wang, Jiaan and Chaturvedi, Dhawal
     hid:
-        - 233
+        - 233 and 204
     pid:
         - 0
-    status: 0%
-    title: TBD
+    status: 10%
+    title: Big Data in Safe Driver Prediction
     type: latex
     url: https://github.com/bigdata-i523/hid233/blob/master/project/report.tex

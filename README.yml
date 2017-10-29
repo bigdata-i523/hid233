@@ -30,7 +30,7 @@ paper2:
     abstract: "Big data applications in virtual assistants"
     author:
         - Wang, Jiaan
-    chapter: technology
+    chapter: Technology
     hid:
         - 233
     status: 10%
@@ -50,6 +50,7 @@ project:
         prediction with decent accuracy can correctly adjust prices for policyholders.
     author:
         - Wang, Jiaan and Chaturvedi, Dhawal
+    chapter: Insurance
     hid:
         - 233 and 204
     pid:

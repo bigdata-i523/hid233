@@ -1,4 +1,4 @@
-Title: Big Data Applications in Media and Entertainment Industry
+Title: Big Data Applications in the Media and Entertainment Industry
 
 Author: Wang, Jiaan
 

@@ -2,7 +2,7 @@ FILE=report
 FLAGS=-interaction nonstopmode -halt-on-error -file-line-error 
 REVIEW=review
 DEFAULT=$(FILE)
-LATEX=pdflatex
+LATEX=pydflatex
 PDFLATEX=pdflatex
 
 UNAME := $(shell uname)

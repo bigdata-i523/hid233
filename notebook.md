@@ -20,6 +20,7 @@
 * 10/24/17 Added more resources for Paper 2. Updated report.tex and report.bib. 
 * 11/02/17 Fixed Paper 1 and 2 according to the new format. Added content.tex and modified report.tex
 * 11/02/17 Fixing Paper 1 based on suggestions from TA
+* 11/02/17 Paper 1 revision completed, content.tex, issues.tex updated. 
 
 # Theory
 

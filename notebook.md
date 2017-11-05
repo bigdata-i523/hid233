@@ -21,6 +21,7 @@
 * 11/02/17 Fixed Paper 1 and 2 according to the new format. Added content.tex and modified report.tex
 * 11/02/17 Fixing Paper 1 based on suggestions from TA
 * 11/02/17 Paper 1 revision completed, content.tex, issues.tex updated. 
+* 11/05/17 Need to postphone Paper 2 review date to 11/10/17 because of busy schedule
 
 # Theory
 

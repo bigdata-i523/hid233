@@ -62,6 +62,7 @@
 * 10/13/2017 Meeting: Attended class meeting for residential students
 * 10/20/2017 Meeting: Attended class meeting for residential students
 * 10/27/2017 Meeting: Did not attend class meeting for residential students due to sickness
+* 11/03/2017 Meeting: Attended class meeting for residential students
 
 # Location
 

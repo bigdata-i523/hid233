@@ -12,7 +12,13 @@
 
 \begin{abstract}
 
-    This paper provides
+    In the age of big data, artificial intelligence and speech recognition 
+    techniques have been widely used in numerous big data technologies and 
+    applications. Among those are virtual assistants which could potentially 
+    lead to the future evolution of big data. We list various virtual assistants 
+    currently in the industry developed by giants such as Google, Microsoft, 
+    Amazon and Apple. We then follow up by discussing some future development 
+    of virtual assistants.
     
 \end{abstract}
 
@@ -22,55 +28,27 @@
 
 \section{Introduction}
 
-``Big data is a technical buzzword that is recently grown quite popular in tech circles. It is a term that generally refers to the collection and storage of a giant horde of data, a horde so large that only supercomputers can chew through it. We are talking data at the petabyte scale'' \cite{Tal2015internet}.
+Since the early 2000s, big data has been a popular word among the tech industries. It is a term that describes data sets which are so huge that normal data management techniques are not enough to process them. Nowadays, big data usually refers to data science analytics methods such as predictive modeling, machine learning, data mining, speech recognition and so on \cite{Tal2015internet}. Big data is typically described by the 4Vs, that is Volume, Velocity, Variety and veracity. Volume stands for the size of the data, velocity refers to the data processing speed, variety means different types of data and finally veracity represents the quality of the data. 
 
-``In the past, all this data was impossible to sort through, but with each passing year better algorithms, coupled with increasingly powerful supercomputers, have allowed governments and corporations to connect the dots and find patterns in all this data. These patterns then allow organizations to better execute three important functions: Control increasingly complex systems (like city utilities and corporate logistics), improve existing systems (general government services and flight path planning), and predict the future (weather and financial forecasting)'' \cite{Tal2015internet}.
+As the name suggests, big data is big. The size of the data could go up to petabytes or even exabytes which is 1000 petabytes. Previously, to process this amount of data is essentially impossible. However, as the year goes by, the ability to analyze big data has increased significantly thanks to improved mathematical algorithms and powerful computers \cite{Tal2015internet}. 
 
-``As you can imagine, the applications for big data are immense. It will allow organizations of all kinds to make better decisions about the services and systems they manage. But big data will also play a big role in helpYour texts, your emails, your social posts, your web browsing and search history, the work you perform, who you call, where you go and how you travel, what home appliances you use and when, how you exercise, what you watch and listen to, even how you sleep—on any given day, the modern individual is generating huge amounts of data, even if he or she lives the simplest of lives. This is big data on a little scale'' \cite{Tal2015internet}.
+In the era of big data, the opportunities are immense. Big data not only will help all kinds of companies and organizations to make better services and decisions but also will aid us in everyday tasks such as writing emails, sending texts, shopping online, listening to music, watching TV, traveling around the globe, managing schedules, and so on \cite{Tal2015internet}. This led to to the birth of virtual assistants which are software that can perform various tasks described above for individuals. The major technologies behind virtual assistants are artificial intelligence and speech recognition which would not be possible without the use of big data \cite{Baron2017assistants}. At present, more and more companies and organizations are beginning to employ the use of virtual assistants which utilize artificial intelligence. As a result, along with the help of machine learning algorithms, more and more applications, technologies and systems will be able to obtain information on their own such as user behaviors to predict and provide useful suggestions to individuals with more personalized experiences \cite{Hard2014applications}.
 
-``Search engines are undoubtedly a staple in our everyday lives - for most of us, we rely on the search giant, Google, which provides us with tailored search results to many questions throughout the day. But many technology and data companies are realizing that the next generation of search lies in vertical, or topic-specific, search. Rather than solving large, more general problems, vertical search tackles more specific and precise queries. Vertical search is even beginning to emerge within industries such as travel, entertainment, fashion and more. This dynamic presents an opportunity for other companies to surpass Google in industry-specific verticals'' \cite{Hard2014applications}.
+Virtual assistants work usually via three different methods: by texts, or voices or sometimes images. A virtual assistant may work via more than one method such as Goggle Assistant which can understand texts and voices. After users input their commands either via texts or voices, the virtual assistants process those information received using a method called natural language processing which then translates user inputs into executable commands they can interpret. 
 
-``As an example, Zite, a news recommendation smart-phone app, offers the end-user recommendations of what to read based on preferences and uses artificial intelligence to learn the behaviors and preferences to create and continuously improve these recommendations. This creates intelligent search recommendations that are much more vertical and specific than what the end-user would experience with Google'' \cite{Hard2014applications}.
+\section{Current applications in the industry}
 
-``Truly intelligent vertical search engines utilize text and image classification coupled with other AI algorithms and big data analytics to gain detailed knowledge about both users and content in verticals or applications. It will be these companies can gain a competitive advantage over giants like Google'' \cite{Hard2014applications}.
+In this new era of virtual assistants, four major tech companies come into play: Google with Google assistant and Google Now, Apple with Siri, Microsoft with Cortana and Amazon with Alexa. All these virtual assistants have been successful in the market but the technologies behind them are still immature. The four giants have been competing with each other in this area for years and each of them wants to bring their own unique virtual assistant to the market. 
 
-``Retailers in particular have the opportunity to monopolize on next-generation virtual assistants, as they offer the opportunity to directly relate to shoppers and create truly loyal customers. The ideal virtual assistant of the future will help fill in the gaps that currently exist between a personalized experience that in-store shoppers are used to, and current, less helpful, online and mobile shopping applications. Some virtual assistants have already begun to use geo-targeting technologies to localize experience, but the next generation will focus on a direct interaction with the customer that will create a seamless customer experience – handling every step of the purchase cycle. We will continue to see more of these emerge as omni-channel retail becomes a larger part of our everyday lives, beginning with mobile virtual assistant apps'' \cite{Hard2014applications}.
 
-``You are probably familiar with Amazon’s recommendations, a first-generation example of online product suggestions, as Amazon uses collaborative filtering. This method, however, is not capable of providing suggestions that present what the user actually wants. Collaborative filtering attempts to filter products driven by taste - for example, if you buy a pink shirt, it may then suggest you buy that same shirt in red'' \cite{Hard2014applications}.
 
-``Product advice powered by AI offer the next-generation of recommendations. By extracting data from multiple sources including your location and amount of time spent on the site, retailers will build the knowledge to predict their customers' preferences and needs. Machine learning will begin to allow retailers to process this data and generate a deep knowledge of not only their products but their users, and even more importantly, their preferences and behaviors. Better recommendations can be built by classification of products and multiple recognition and data enhancement methods - laying the groundwork for retailers to establish meaningful relationships with their customers by recommending them truly relevant products'' \cite{Hard2014applications}.
-
-``As more apps and technology begin to incorporate AI, the more able they will become to predict behaviors of the end-user. You will begin to see more systems that learn your behaviors and are able to provide you with a much more personalized, seamless user-experience, as AI will continue to open up new doors to incorporate more abstract and difficult data sources'' \cite{Hard2014applications}.
-
-``How does machine learning work in virtual assistants? Firstly, it is a combination of several algorithms as multiple issues need to be resolved. Initially, a semantic token parser will be required. This then needs an expert database (logical networks such as Prolog, object based databases, functional representation) of semantic representation. After that, you will implement the learning structures based on existing knowledge or by programming it. This serves the pattern matching algorithm. The next step is finding the valid answer in the network, which requires a different algorithm (graph). Then, you'd need an interface algorithm for user interaction (IRC channel, web, web socket, general socket, API). You'll also need a semantic generator - an algorithm that is generating from the found solution a grammatically and syntactically correct natural language way to represent the answer in a human readable way'' \cite{Srivastava2016upswing}.
-
-``Thanks to the sudden acceleration of artificial intelligence and advancements in speech recognition and big-data storage, the technology behind virtual assistants is rapidly spreading from phones to cars and homes, and the truly useful helper is approaching fast. The four giants are fighting for the biggest share of a market expected to grow to 12 billion dollars by 2024'' \cite{Baron2017assistants}.
-
-``The ultimate goal is our own personal genie in a bottle that awakens with a word or touch to liberate us from all our mundane tasks, organize our days and nights, and free us from the stress of lives that have become so terribly busy. But that’s not going to happen quite yet'' \cite{Baron2017assistants}.
-
-``The industry stands at a critical moment, because the first highly effective help-bot to get a foothold in a consumer’s home, phone or car will likely stay, creating a barrier to competitors'' \cite{Baron2017assistants}.
-
-``In order for a virtual helpmate to run your life, it needs to engage with the providers of all the services you rely on, from your calendar app to your Uber ride. Those providers must either partner with the company operating the assistant, or design their app to integrate with the assistant. So Spotify will stream music upon request via Alexa, and Honeywell's smart-home thermostat, via Assistant, will bump up the temperature 15 minutes before Grandma’s expected arrival'' \cite{Baron2017assistants}.
-
-\section{Current applications in the field}
-
-``Virtual assistants rely on a number of different technologies. One involves speech recognition. Google says it has reduced the error rate for recognizing words in its own mobile app to less than 8 per cent - a level at which it says the service has become a practical alternative to entering text. Apple has also made considerable headway in overcoming the early disappointment by adding more capabilities to Siri and helping users better understand what it can and cannot do'' \cite{Waters2015life}. 
-
-``A second front has involved the predictive technology for anticipating what a user will want to know next. This draws on contextual data - aspects such as the location and time of day - as well as personal information. Knowing what other people have found useful is also valuable'' \cite{Waters2015life}.
-
-``Future VAs will use all of this data to better understand you with the goal of helping you accomplish your daily tasks more effectively. In fact, you may have already used early versions of VAs: Google Now, Apple's Siri, or Microsoft's Cortana'' \cite{Tal2015internet}.
-
-``Each of these companies have a range of services or apps to help you collect, store, and use a treasure trove of personal data. Take Google for example. Creating a single Google account gives you access to its large ecosystem of free services - search, email, storage, maps, images, calendar, music and more - that are accessible from any web-enabled device. Every action you take on these services (thousands per day) is recorded and stored in a {\em personal cloud} inside Google's server farms. With enough use, Google begins to understand your preferences and habits with the end goal of using {\em anticipatory systems} to provide you with information and services you need, when you need it, before you even think to ask for it'' \cite{Tal2015internet}.
-
-``For example, Apple users generally use Apple desktops or laptops at home and Apple phones outdoors, all while using Apple apps and software in between. With all these Apple devices and software connected and working together within the Apple ecosystem, it shouldn't come as a surprise that Apple users will likely end up using Apple's VA: A future, beefed up version of Siri. Non-Apple users, however, will see more competition for their business'' \cite{Tal2015internet}.
+``Take Google for example. Creating a single Google account gives you access to its large ecosystem of free services - search, email, storage, maps, images, calendar, music and more - that are accessible from any web-enabled device. Every action you take on these services (thousands per day) is recorded and stored in a {\em personal cloud} inside Google's server farms. With enough use, Google begins to understand your preferences and habits with the end goal of using {\em anticipatory systems} to provide you with information and services you need, when you need it, before you even think to ask for it'' \cite{Tal2015internet}.
 
 ``Google already has a sizable advantage in the machine learning field. Because of their globally dominant search engine, popular ecosystem of cloud-based services like Chrome, Gmail, and Google Docs, and Android, Google has access to over 1.5 billion smart-phone users. This is why heavy Google and Android users will likely choose a future version of Google's VA system, Google Now, to power their lives'' \cite{Tal2015internet}.
 
+``Apple has also made considerable headway in overcoming the early disappointment by adding more capabilities to Siri and helping users better understand what it can and cannot do'' \cite{Waters2015life}. ``For example, Apple users generally use Apple desktops or laptops at home and Apple phones outdoors, all while using Apple apps and software in between. With all these Apple devices and software connected and working together within the Apple ecosystem, it shouldn't come as a surprise that Apple users will likely end up using Apple's VA: A future, beefed up version of Siri. Non-Apple users, however, will see more competition for their business'' \cite{Tal2015internet}.
+
 ``While seen as an underdog due to its near non-existent market share in the smart-phone market, Microsoft's operating system, Windows, is still the dominant operating system among personal desktops and laptops. With its 2015 roll-out of Windows 10, billions of Windows users around the world will be introduced to Microsoft's VA, Cortana. Active Windows users will then have an incentive to download Cortana into their iOS or Android phones to ensure everything they do within the Windows ecosystem gets shared with their smart-phones on the go'' \cite{Tal2015internet}.
-
-``Cortana and Google Assistant are getting smarter, with contextual reminders and recommendations geared toward optimizing productivity along with fascinating innovations incorporating computer vision and other machine learning algorithms. Alexa is building out a diverse ecosystem of third-party skills, and Google and Microsoft have followed suit'' \cite{Marvin2017them}.
-
-``Alexa Skills Kit, Cortana Skills, and Actions on Google give companies and developers the tools to apply the voice tech to everything from email marketing and e-commerce to expense tracking and fleet management. These business applications and use cases are only what we've seen so far. PCMag spoke to execs from Amazon, Google, and Microsoft to understand their virtual assistant vision, how the tech is evolving, and what these companies believe businesses can do with voice-capable AI helpers'' \cite{Marvin2017them}.
 
 ``The value of a virtual assistant is having it there wherever you are, giving you the tailored information you need sometimes before you even know you need it. Microsoft, more than the other tech giants building out this tech, has deeper roots in business software and productivity. Cortana is enabled across a number of Microsoft's apps and services-from Microsoft Power BI to Skype to provide immediate contextual responses to business queries without leaving the app you are in'' \cite{Marvin2017them}.
 
@@ -82,13 +60,13 @@
 
 ``Beyond that, Jones said the Cortana team is working with Microsoft Research through projects such as {\em Calendar.help} to automate processes like scheduling meetings with contacts outside your organization. The team is also working with the Microsoft IT Division development team to create experiences specific to Cortana that pull in a range of apps and contextual data'' \cite{Marvin2017them}.
 
-``The more tasks you teach and program an AI to perform, the more it will be able to do. In this respect, virtual assistants have something in common with the deep learning process by which ML algorithms and neural networks are trained on massive data sets. Training virtual assistants to perform specific business tasks is easier; all you have to do is open up the ecosystem to third-party skills development'' \cite{Marvin2017them}.
+``Cortana and Google Assistant are getting smarter, with contextual reminders and recommendations geared toward optimizing productivity along with fascinating innovations incorporating computer vision and other machine learning algorithms. Alexa is building out a diverse ecosystem of third-party skills, and Google and Microsoft have followed suit'' \cite{Marvin2017them}.
+
+``Alexa Skills Kit, Cortana Skills, and Actions on Google give companies and developers the tools to apply the voice tech to everything from email marketing and e-commerce to expense tracking and fleet management. These business applications and use cases are only what we've seen so far. PCMag spoke to execs from Amazon, Google, and Microsoft to understand their virtual assistant vision, how the tech is evolving, and what these companies believe businesses can do with voice-capable AI helpers'' \cite{Marvin2017them}.
 
 ``Amazon is the standard-bearer in this regard. The Alexa Skills Kit has been available since 2015 and lets companies and developers apply Alexa to whatever business environment or process they desire. As a result, there is already a wide selection of available business skills that companies can simply enable and start using - and that ecosystem is growing'' \cite{Marvin2017them}.
 
 ``Google and Microsoft have followed Amazon's lead on this front with Actions on Google and Cortana Skills, respectively. These tool-kits let you build particular skills but they're also evolving to incorporate natural language processing and features such as proactive suggestions to recommend a skill to users in the right context'' \cite{Marvin2017them}.
-
-``Interoperability aside, the fact is, this space is still only a few years old. Amazon launched The Alexa Fund last year to spur innovation in the space, committing to invest up to 100 million dollars in venture capital funding to both start-ups and established brands pushing the boundaries of what voice and virtual assistant tech can do. Google and Microsoft are both heavily invested in continued research as well'' \cite{Marvin2017them}.
 
 ``Now, perhaps unsurprisingly, Facebook pops up again. In the last chapter for this series, we mentioned how Facebook will likely enter the search engine market, competing against Google’s fact-focused semantic search engine with a sentiment-focused semantic search engine. Well, in the field of VAs, Facebook can also make a big splash'' \cite{Tal2015internet}.
 
@@ -98,30 +76,19 @@
 
 ``Today, the aid these virtual assistants provide remains limited. Most users of Google Home and Amazon Echo devices - which host Assistant and Alexa, respectively - stream music, play audio books, and control smart-home devices, according to surveys by San Francisco analytics firm VoiceLabs'' \cite{Baron2017assistants}.
 
-``Still, the virtual agent’s foundation in AI means the more it learns about a user's preferences and behaviors, the better job it can do. So while experts predict a handful of firms will dominate in this field - most agree Apple, Google and Amazon will be major players, with Microsoft in a lesser role - they are split on whether consumers will be served best by one bot, or more'' \cite{Baron2017assistants}.
+``Still, the virtual agent's foundation in AI means the more it learns about a user's preferences and behaviors, the better job it can do. So while experts predict a handful of firms will dominate in this field - most agree Apple, Google and Amazon will be major players, with Microsoft in a lesser role - they are split on whether consumers will be served best by one bot, or more'' \cite{Baron2017assistants}.
 
 ``People want one assistant, they do not want two. You want one assistant, to be very readily available wherever you are. However, the various assistants will likely end up somewhat specialized in their expertise, with Google Assistant, for example, excelling in providing knowledge and managing schedules, and Microsoft Cortana leading on gaming. In a few years, many people will use two or three different assistants'' \cite{Baron2017assistants}.
 
 ``For all the major players, virtual assistants provide important data that fuels the AI that powers and improves them, making both the assistants and the products they live in ever more marketable. For Amazon, Alexa is an enthusiastic purchasing agent for the e-commerce that drives the firm. For Google, Assistant is a turbocharged vacuum for the data the company collects to sell ads targeted directly at users \cite{Baron2017assistants}.
 
-``So far, both Google and Amazon have focused largely on home-based assistants. Google's new Pixel phones host Assistant, but it has an uphill battle because Apple has far more phones equipped with Siri on the market'' \cite{Baron2017assistants}.
-
-``The popularity of Amazon Echo and Alexa notwithstanding - the company has sold more than 8 million Echo devices since rolling them out in late 2014, according to Consumer Intelligence Research Partners - most people want their virtual assistant on their phones'' \cite{Baron2017assistants}. 
-
 \section{The future of virtual assistants}
+
+``The ideal virtual assistant of the future will help fill in the gaps that currently exist between a personalized experience that in-store shoppers are used to, and current, less helpful, online and mobile shopping applications. Some virtual assistants have already begun to use geo-targeting technologies to localize experience, but the next generation will focus on a direct interaction with the customer that will create a seamless customer experience – handling every step of the purchase cycle. We will continue to see more of these emerge as omni-channel retail becomes a larger part of our everyday lives, beginning with mobile virtual assistant apps'' \cite{Hard2014applications}.
+
 ``Putting these robo-helpers into cars' on-board systems has become a priority for major firms, including Microsoft, which seeks to extend the reach of its PC-based Cortana through the {\em connected-vehicle} platform it announced this year'' \cite{Baron2017assistants}.
 
 ``In January, Nissan announced it would integrate Microsoft's platform into its cars. Siri already can be used in a car via a phone or Apple's CarPlay system, or in cars sold with Siri integration built in. Hyundai is bringing Alexa and Google Assistant into some of its cars so, for example, an owner could start their car from their living room'' \cite{Baron2017assistants}.
-
-``Slack CEO Stewart Butterfield has an audacious goal: Turning his messaging and collaboration platform into an uber virtual assistant capable of searching every enterprise application to deliver employees pertinent information. And if Slack succeeds, it could seal the timeless black hole of wasted productivity enterprise search and other tools have failed to close'' \cite{Boulton2016assistants}.
-
-``The real potential comes in the form of intelligent virtual assistants, known as chatbots. Slack this year introduced a platform and development kit that allows third-party developers to build bots designed to make tedious tasks such as managing expenses, tracking projects or ordering tacos more efficient. If developers create enough bots, employees won't have to switch out of Slack to access apps in browser windows'' \cite{Boulton2016assistants}.
-
-``For example, suppose that you wanted to know who someone's boss was, or what a business unit's revenue was for a quarter. You could ask around or sift through a corporate directory laden with an enterprise search system. But what if you could just ask a bot, which could retrieve the answer almost instantly? You can build institutional knowledge and ask that of a bot instead of a human and it saves people a lot of time and offloads a lot of noise'' \cite{Boulton2016assistants}.
-
-``Slack could eventually train bots to recognize when conversations are going on to too long without a resolution in sight and recommend that the team members conduct a face-to-face or virtual meeting - and then it would schedule it for them. Slack has a position as an interface that makes sense if messaging is the way you want to interact with the bots'' \cite{Boulton2016assistants}.
-
-``Slack is building an enterprise version that will include many of the necessary attributes CIOs have come to demand from productivity and collaboration tools, including the capability to provision and de-provision users and have fine-grained control and policy setting over channels through a single web dashboard. The software, currently in testing with half a dozen businesses, will feature metrics about consumption and other analytics. When it does launch, platforms from Microsoft, IBM and the just launched Facebook Workplace platform will be waiting'' \cite{Boulton2016assistants}.
 
 ``A new crop of virtual assistants is on the way, led by Amy, Shae and Otto. Each in its own way represents the future of virtual assistants. One is in public beta, one is in private beta and one is a hardware prototype, but they are coming soon, and they collectively reveal how much better virtual assistants can be'' \cite{Elgan2016future}.
 
@@ -152,14 +119,6 @@
 ``It is based on Samsung's ARTIK IoT platform, which Samsung recently unveiled developer tools for. Otto represents the future of virtual assistants not only because it is a physical home appliance, but also because it uses facial recognition. That means different members of the family could each have their own set of preferences and personal details, calendars and accounts - and Otto and other future appliances could base their interactions on the knowledge of the person they are talking to'' \cite{Elgan2016future}.
 
 ``Shae, Amy and Otto together represent the future of virtual assistants, which will be specialized, personalized, thorough, preemptive, highly intelligent and optionally available in the form of dedicated physical appliances. These three virtual assistants already suggest just how helpful and, well, human our technology will become'' \cite{Elgan2016future}.
-
-
-
-
-
-
-
-
 
 \section{Conclusion}
 

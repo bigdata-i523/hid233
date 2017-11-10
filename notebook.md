@@ -22,7 +22,8 @@
 * 11/02/17 Fixing Paper 1 based on suggestions from TA
 * 11/02/17 Paper 1 revision completed, content.tex, issues.tex updated
 * 11/05/17 Need to postphone Paper 2 review date to 11/10/17 because of busy schedule
-* 11/05/17 Added materials for paper 2, content.tex updated, paper 2 still in progress, not ready for review yet
+* 11/05/17 Added materials for Paper 2, content.tex updated, Paper 2 still in progress, not ready for review yet
+* 11/09/17 Paper 2 completed, content.tex updated, Paper 2 ready for review
 
 # Theory
 

@@ -29,13 +29,14 @@ paper1:
     url: https://github.com/bigdata-i523/hid233/blob/master/paper1/report.tex
 paper2:
     abstract: >
-        In the age of big data, artificial intelligence and speech recognition 
-        techniques have been widely used in numerous big data technologies and 
-        applications. Among those are virtual assistants which could potentially 
-        lead to the future evolution of big data. We list various virtual 
-        assistants currently in the industry developed by giants such as Google, 
-        Microsoft, Amazon and Apple. We then follow up by discussing some future 
-        development of virtual assistants.
+        In the age of big data, artificial intelligence and speech 
+        recognition techniques have been widely used in numerous 
+        big data technologies and applications. Among those are 
+        virtual assistants which could potentially lead to the future 
+        evolution of big data. We list various virtual assistants 
+        currently in the industry developed by giants such as Google, 
+        Microsoft, Amazon and Apple. We then follow up by discussing 
+        some future development of virtual assistants.
     author:
         - Wang, Jiaan
     chapter: Technology

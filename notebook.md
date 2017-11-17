@@ -24,6 +24,7 @@
 * 11/05/17 Need to postphone Paper 2 review date to 11/10/17 because of busy schedule
 * 11/05/17 Added materials for Paper 2, content.tex updated, Paper 2 still in progress, not ready for review yet
 * 11/09/17 Paper 2 completed, content.tex updated, Paper 2 ready for review
+* 11/15/17 Start working on Project
 
 # Theory
 
@@ -32,9 +33,9 @@
 * 10/01/17 Update: hasn't watched any videos so far due to busy schedule, will continue after completion of Paper 1
 * 10/15/17 - 10/21/17 Read and watched all videos in the Big Data Use Cases Survey section
 * 10/22/17 - 10/28/17 Read and watched all videos in the Health Informatics Case Study and e-Commerce and LifeStyle Case Study section
-* 10/29/17 - 11/04/17 Will read and watch all videos in the Physics Case Study and Radar Case Study section
-* 11/05/17 - 11/11/17 Will read and watch all videos in the Sensors Case Study and Sports Case Study section
-* 11/12/17 - 11/18/17 Will read and watch all videos in the Web Search and Text Mining section
+* 10/29/17 - 11/04/17 Read and watched all videos in the Physics Case Study and Radar Case Study section
+* 11/05/17 - 11/11/17 Read and watched all videos in the Sensors Case Study and Sports Case Study section
+* 11/12/17 - 11/18/17 Read and watched all videos in the Web Search and Text Mining section
 
 # Practice
 
@@ -65,6 +66,8 @@
 * 10/20/2017 Meeting: Attended class meeting for residential students
 * 10/27/2017 Meeting: Did not attend class meeting for residential students due to sickness
 * 11/03/2017 Meeting: Attended class meeting for residential students
+* 11/10/2017 Meeting: Did not attend class meeting for residential students
+* 11/17/2017 Meeting: Did not attend class meeting for residential students due to an interview
 
 # Location
 

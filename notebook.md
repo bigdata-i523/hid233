@@ -26,6 +26,7 @@
 * 11/09/17 Paper 2 completed, content.tex updated, Paper 2 ready for review
 * 11/15/17 Start working on Project
 * 11/28/17 Added contents and references for project report
+* 11/30/17 Added more contents for project report
 
 # Theory
 

@@ -64,7 +64,7 @@ project:
     chapter: Insurance
     hid:
         - 233 and 204
-    status: 50%
+    status: 100%
     title: Big Data in Safe Driver Prediction
     type: project
     url: https://github.com/bigdata-i523/hid233/blob/master/project/report.tex

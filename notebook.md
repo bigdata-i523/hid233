@@ -27,6 +27,7 @@
 * 11/15/17 Start working on Project
 * 11/28/17 Added contents and references for project report
 * 11/30/17 Added more contents for project report
+* 12/05/17 Project report completed
 
 # Theory
 
@@ -70,6 +71,7 @@
 * 11/03/2017 Meeting: Attended class meeting for residential students
 * 11/10/2017 Meeting: Did not attend class meeting for residential students
 * 11/17/2017 Meeting: Did not attend class meeting for residential students due to an interview
+* 12/01/2017 Meeting: Attended class meeting for residential students
 
 # Location
 

@@ -77,13 +77,13 @@ For example, one of the earliest Usage-Based Insurance programs available to the
 
 \section{Current Applications}
 
-``Predictive analytics are being employed in interesting new ways to improve safety. Telematics solutions have long monitored events like hard braking and speeding to flag unsafe driver behaviors.  But today, this driver event data is being enriched with other data streams to actually predict the likelihood of a specific driver having an accident. A company called SmartDrive Systems goes even further in their efforts to predict accidents.  They are enriching the telematics data with video feeds from road facing and interior facing cameras.  The company is combining asset sensor with driver sensor data to do better driver safety analytics and ultimately make better predictions'' \cite{Banker2016accident}.
+Predictive analytics are being utilized with telematics data to enhance and improve road safety. Telematics have been used for a long time in insurance industry to monitor driving behaviors such as speeding to identify high-risk drivers. Now coupled with predictive analytics, these data are being analyzed to predict the likelihood of a driver being involved in future accidents. SmartDrive Systems, a transportation safety and intelligence company, employs even more interesting ways to predict accidents. They record and gather video feeds from dashboard cameras in cars which are then integrated with telematics data. This way, they can improve their predictive analytics on driver safety and eventually leads to better predictions \cite{Banker2016accident}.
 
-``SmartDrive Systems is a predictive analytics supplier whose solution is based on a private cloud architecture.  In other words, all of their customers’ data is captured by the company; they have telematics and video on four billion miles driven, of which they scored almost 200 million events.   SmartDrive’s customer agreements allow them to analyze all the customer data so they can continue to improve their algorithms.  “We are constantly tuning and improving our algorithms,” Mr. Mitgang said. The combination of telematics and video has allowed their scientists to better interpret the telematics data. By reading the telematics data, and seeing what happened, they were able to determine, for example, that turning more than 165 degrees within a certain turning radius and time window was a risky U-turn on a roadway. SmartDrive also detected additional patterns to avoid false trigger activation in large open areas such as parking lots and truck stops'' \cite{Banker2016accident}.
+SmartDrive Systems uses a private cloud to provide their clients with predictive analytics solutions. All the data from their clients are collected by the company and stored on their cloud. The data includes telematics and video feeds from millions of clients with more than 4 billion mileage. SmartDrive constantly improves their predictive models because the agreements SmartDrive has with their clients permit them to study all the data they gather. The usage of both telematics data and video feeds is a great idea which enables SmartDrive researchers to better understand the data and interpret the results. By combining what they see through the video feeds and the results from telematics data analysis, the researchers can draw conclusions such as making a U-turn on a narrow road within some fixed radius is dangerous \cite{Banker2016accident}.
 
-``Indiana State Police decided to take a different approach, and are making their predictive crash analytics program available to the public, as well as troopers. A color-coded Daily Crash Prediction map, which went online in November, pulls together data that includes crash reports from every police agency in the state dating to 2004, daily traffic volume, historical weather information and the dates of major holidays, said First Sgt. Rob Simpson. The online map pinpoints where a crash is likely, ranging from a very low to a high probability. It also highlights prior crash sites and displays information about the date and cause, whether EMS was called, if there was a fatality, and if drugs or alcohol were involved. As of late January, the site had nearly 4,800 page visits'' \cite{Bergal2017sites}.
+Indiana State Police came up with a different way to predict incidents and are making their predictive analytics methods open source. In their approach, they produced something called {\em Daily Crash Prediction Map} which finally completed in November. It contained data such as accident reports from all the police departments in Indiana going back to 2004 as well as data on daily weather, historical traffic amount and so on. This map highlights where potential accidents may happen categorized by their probabilities. It also features information about past accidents such as locations, dates, causes, fatalities and so on \cite{Bergal2017sites}.
 
-``Liberty Mutual, the country's third-largest property-and-casualty insurer, took the latest step in that direction Monday when it announced a partnership with Subaru. Beginning later this year, Subaru drivers who have paid for the automaker's Starlink infotainment system will be able to download an app to their cars that notifies them when they are accelerating too aggressively or braking too hard. The app is part of Liberty Mutual's RightTrack program, which gives drivers a 5 percent discount on their rates for enrolling and additional discounts up to 30 percent for heeding the app's guidance on driving safely'' \cite{Fung2016turn}. 
+Liberty Mutual is the nation's third largest property and casualty insurance company. Last year, Liberty Mutual partnered up with Subaru. In doing so, customers was granted access to {\em Starlink}, Subaru's multimedia and navigation system, which can track and notify drivers via an app if they are speeding or braking too hard. By enrolling in the {\em RightTrack} program provided by Liberty Mutual, drivers can get up to 30 percent discounts for good driving behaviors \cite{Fung2016turn}. 
 
 \section{Data Analysis}
 The data we are gonna use for our analysis is of Porto Seguro. It is one of Brazil's largest auto and homeowner insurance companies. Inaccuracies in car insurance company's claim predictions raise the cost of insurance for good drivers and reduce the price for bad ones. The task is to build a model that predicts the probability that a driver will initiate an auto insurance claim in the next year or not. An accurate prediction will allow them to further tailor their prices, and hopefully make auto insurance coverage more accessible to more drivers. 
@@ -92,6 +92,7 @@ The data we are gonna use for our analysis is of Porto Seguro. It is one of Braz
 We will be mainly discussing about the Exploratory data Analysis we have  performed on the data until now. We will be using the help of both R and python environment and supporting packages to perform the necessary statistical analysis. Along with this, we will discuss  about  the  Machine  or  Deep  Learning  algorithms  / models that we will be using to achieve the near solution for the problem.
 
 \subsection{Feature Information}
+
 \ Dimensions of the data [Rows x Features] : [ 595212, 59 ]
 \\ \newline The dataset constitutes different varieties of features.
 \\ \newline \textbf{Binomial Features} [Count : 17] :  ps\_ind\_06\_bin,  ps\_ind\_07\_bin, ps\_ind\_08\_bin, ps\_ind\_09\_bin, ps\_ind\_10\_bin, ps\_ind\_11\_bin, ps\_ind\_12\_bin, ps\_ind\_13\_bin, ps\_ind\_16\_bin, ps\_ind\_17\_bin, ps\_ind\_18\_bin, ps\_calc\_15\_bin, ps\_calc\_16\_bin, ps\_calc\_17\_bin, ps\_calc\_18\_bin, ps\_calc\_19\_bin, ps\_calc\_20\_bin.
@@ -106,6 +107,7 @@ We will be mainly discussing about the Exploratory data Analysis we have  perfor
 \\ \newline The \textbf{missing values} in the features are represented by -1.
 
 \subsection{Data Preprocessing}
+
 As shown in \ref{f:missing}, missing values are found in 14 of the 58 columns. There are 6 features with more than 5000 missing row values. Owing to the shear size of the unavailable data, we have not performed any missing value treatment and removed these features from consideration. Of the remaining data, across rows, data is unavailable in atmost 500 ($<$1\%) rows and these are promptly removed.
 
 \begin{figure}[!ht]
@@ -122,35 +124,53 @@ As shown in \ref{f:numerical}, target variable claims is a binary variable with 
 \end{figure}
 
 \subsection{Numerical Predictors (vs) Target Variable}
+
  Average value of most of the numerical predictors is higher when the claims are filed. This is a unique phenomenon and we intend to use this contrast in predicting the target variable.
   
 \subsection{Artificial Neural Networks}
+
 Artificial neural networks (ANNs)  are computing models which are based on biological neural networks that constitute human brains. The idea of ANNs is based on the belief that working of human brain can be imitated for computers by using silicon and wires as living neurons. Such systems learn by progressively improving their performance to do tasks by considering examples, generally without task-specific programming. The human brain can be considered as a complex network of nerve cells called neurons(about 86 billion). They are inter-connected to other millions of cells by Axons. These neurons then react to stimulation from external environment or inputs from other organs. A neuron can then send the message to other neuron to handle the issue or does not send it forward. 
 \\
 ANNs also try to imitate biological neurons of human brain. The neurons are connected by links and they interact with each other. The nodes can take input data and perform simple operations on the data. The result of these operations is passed to other neurons. The output at each node is called its activation. Each node is assigned with weight. ANNs are capable of learning, which takes place by altering weight values. If the network generates the desired output, there is no need to adjust the weights. However, if the network generates an undesired output or an error, then the system alters the weights in order to improve subsequent results.
 
 \subsection{Types of ANNs}
+
 \subsubsection{Feedback ANN}
+
 In these type of ANN, the output goes back into the network to achieve the best-evolved results internally. The feedback network feeds information back into itself and is well suited to solve optimization problems. Feedback ANNs are used by the Internal system error corrections. 
+
 \subsubsection{Feed Forward ANN}
+
 A feed-forward network is a simple neural network consisting of an input layer, an output layer and one or more layers of neurons.Through evaluation of its output by reviewing its input, the power of the network can be noticed base on group behavior of the connected neurons and the output is decided. The main advantage of this network is that it learns to evaluate and recognize input patterns.
+
 \subsubsection{Radial Basis Function Neural Network}
+
 The RBF neural network is the first choice when interpolating in a multidimensional space. The RBF neural network is a highly intuitive neural network. Each neuron in the RBF neural network stores an example from the training set as a “prototype”. Linearity involved in the functioning of this neural network offers RBF the advantage of not suffering from local minima.
+
 \subsubsection{Kohonen Self-Organising Neural Network}
+
 Invented by Teuvo Kohonen, the self-organizing neural network is ideal for the visualization of low-dimensional views of high-dimensional data. The self-organizing neural network is different from other neural networks and applies competitive learning to a set of input data, as opposed to error-correction learning applied by other neural networks. The Kohonen self-organizing neural network is known for performing functions on unlabeled data to describe hidden structures in it.
+
 \subsubsection{Recurrent Neural Network}
+
 The recurrent neural network, unlike the feed forward neural network, is a neural network that allows for a bi-directional flow of data. The network between the connected units forms a directed cycle. Such a network allows for dynamic temporal behavior to be exhibited. The recurrent neural network is capable of using its internal memory to process arbitrary sequence of inputs. This neural network is a popular choice for tasks such as handwriting and speech recognition.
+
 \subsubsection{Classification-Prediction ANN}
+
 It is the subset of feed-forward ANN and the classification-prediction ANN is applied to data-mining scenarios. The network is trained to identify particular patterns and classify them into specific groups and then further classify them into “novel patterns” which are new to the network.
+
 \subsubsection{Physical Neural Network}
+
 This neural network aims to emphasize the reliance on physical hardware as opposed to software alone when simulating a neural network. An electrically adjustable resistance material is used for emulating the function of a neural synapse. While the physical hardware emulates the neurons, the software emulates the neural network.
 
 \subsection{Data Analysis Using Neural Networks}
+
 Rather than beginning our inquiry into the dataset with more traditional methods like regression we straight away tried to learn Artificial Neural Networks. Logistic regression itself, can be thought of as a special case of a neural network with a single neuron (~perceptron). 
 \\
 After studying and learning the theory behind ANNs we proceeded to learn how to implement them -- by ourselves at first, and later using TensorFlow. So far we have tried quite a bit of different models and learnt some lessons about the data.
 \\
 \begin{itemize}
+
 \item \textbf{Data Cleaning :} As pointed out by the EDA above, there were a few columns which had a lot of missing data. For columns which had $>1000$ values missing (~6 columns), we disregarded them altogether. For the remaining data points, we disregarded the rows which had any one particular value missing. We started with a simple data cleaning strategy so as to not complicate it too much at the initial stages, but we will probably want to look at it again as we go along.
 
 \item The first thing that we tried is using a simple \textbf{perceptron}. The input layer had 51 nodes (after removing the id, target and 6 other columns in data cleaning) and the output layer had a single perceptron with a sigmoid activation function. The best score that we got when we uploaded our code to kaggle was $0.03$ whereas the leaderboard is hovering around $0.290$ so this is not too impressive.
@@ -160,17 +180,27 @@ After studying and learning the theory behind ANNs we proceeded to learn how to 
 \item \textbf{Issued Encountered}  Looking at the results from the neural network there is one major issue. Whenever we add too many hidden layers ($>3$) the outputs for the test data are all $\approx 0$ and the score drops. After some trial and error, we have diagnosed the issue to be the biased nature of the training data (~$96\%$ of the training data are $0's$). So the ANN sees too many zeros and consequently predicts mostly zeros. We aim to explore different sampling methods to train the neural network to improve the results further (along with cross validation which we haven't implemented).
 \end{itemize}
 
-
 \section{Other Techniques that can be used}
+
 Among the machine Learning algorithms that are used in practice, gradient tree boosting is one technique that shines in many applications.Tree Boosting has been shown to give many state of the art results for many standard classification problem.
 \\
 The most important factor for the success of XGBoost is its ability to scale in all the scenarios. The XGBoost algorithm run ten times faster than the existing popular solutions on a single solution and scales to billions of example in distributed or memory-limited settings.
 \\
-The Porto Seguro dataset is clearly an classification problem, the data will be having only two outputs either the car insurance holder is going to claim or not.
+The Porto Seguro data-set is clearly an classification problem, the data will be having only two outputs either the car insurance holder is going to claim or not.
 \\
 While domain dependent analysis and feature engineering plays an important role in defining or modeling the solutions, the fact that XG Boost is the consensus choice for learners shows the impact and importance  of our system in tree boosting.One problem with the Porto Seguro dataset we dont have have much information about the Features and all the feature must have to under go through strict statistical treatment to build an optimal solution.
 
 \section{Conclusion}
+
+Reducing insurance rates has always been a difficult task in the past. However, armed with advanced technology, insurance companies now have the ability to track personal driving behaviours to provide better suited personalized insurance plans. We performed Neural Networks algorithm on clients data from Porto Seguro, one of Brazil's largest auto insurance companies in order to predict the probability of drivers filing claims in the next year. Our analysis proved to be a success and our model yielded a high accuracy. In the future, we can use other machine learning algorithm or classification techniques to compare the accuracy of the models. 
+
+
+\section{Appendix}
+\subsection{Links to iPython notebook:}
+\url{https://github.com/bigdata-i523/hid233/blob/master/project/Shallow_Neural_Nets.ipynb}
+
+\subsection{Links to iPython notebook pdf version:}
+\url{https://github.com/bigdata-i523/hid233/blob/master/project/Shallow_Neural_Nets.pdf}
 
 
 \begin{acks}
@@ -182,3 +212,4 @@ While domain dependent analysis and feature engineering plays an important role 
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{report} 
+

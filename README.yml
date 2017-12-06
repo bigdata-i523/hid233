@@ -55,16 +55,18 @@ project:
         opposite. The dataset being used is released by Porto Seguro,
         an auto and homeowner insurance company from Brazil. It
         consists of information from several hundred thousands of
-        policyholders. The goal is to predict the probability an auto
+        policyholders.  The goal is to predict the probability an auto
         insurance policyholder files a claim the next year using
         classification algorithms. A good prediction with decent
         accuracy can correctly adjust prices for policyholders.
     author:
-        - Wang, Jiaan and Chaturvedi, Dhawal
-    chapter: Insurance
+        - Wang, Jiaan
+        - Chaturvedi, Dhawal
+    chapter: Business
     hid:
-        - 233 and 204
-    status: 100%
+        - 233
+        - 204
+    status: 10%
     title: Big Data in Safe Driver Prediction
     type: project
-    url: https://github.com/bigdata-i523/hid233/blob/master/project/report.tex
+    url: https://github.com/bigdata-i523/hid233/blob/master/project/

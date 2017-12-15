@@ -104,14 +104,14 @@ Indiana State Police came up with a different way to predict incidents and are m
 Liberty Mutual is the nation's third largest property and casualty insurance company. Last year, Liberty Mutual partnered up with Subaru. In doing so, customers was granted access to {\em Starlink}, Subaru's multimedia and navigation system, which can track and notify drivers via an app if they are speeding or braking too hard. By enrolling in the {\em RightTrack} program provided by Liberty Mutual, drivers can get up to 30 percent discounts for good driving behaviors \cite{Fung2016turn}. 
 
 \section{Data Analysis}
-The data we are gonna use for our analysis is of Porto Seguro. It is one of Brazil's largest auto and homeowner insurance companies. Inaccuracies in car insurance company's claim predictions raise the cost of insurance for good drivers and reduce the price for bad ones. The task is to build a model that predicts the probability that a driver will initiate an auto insurance claim in the next year or not. An accurate prediction will allow them to further tailor their prices, and hopefully make auto insurance coverage more accessible to more drivers. 
+The data we are going to use for our analysis is of Porto Seguro. It is one of Brazil's largest auto and homeowner insurance companies. Inaccuracies in car insurance company's claim predictions raise the cost of insurance for good drivers and reduce the price for bad ones. The task is to build a model that predicts the probability that a driver will initiate an auto insurance claim in the next year. An accurate prediction will allow them to further tailor their prices, and hopefully make auto insurance coverage more accessible to more drivers. 
 
 \subsection{Approach}
-We will be mainly discussing about the Exploratory data Analysis we have  performed on the data until now. We will be using the help of both R and python environment and supporting packages to perform the necessary statistical analysis. Along with this, we will discuss  about  the  Machine  or  Deep  Learning  algorithms  / models that we will be using to achieve the near solution for the problem.
+We will be mainly discussing about the Exploratory data Analysis we have performed on the data. We will be using the help of both R and python environment and supporting packages to perform the necessary statistical analysis. Along with this, we will discuss about the Machine or Deep Learning algorithms or models that we will be using to achieve the near solution for the problem.
 
 \subsection{Feature Information}
 
-Dimensions of the data [Rows x Features] : [ 595212, 59 ]
+Dimensions of the data [Rows x Features] : [595212, 59]
  
 The data-set constitutes different varieties of features.
  
@@ -130,7 +130,7 @@ The \textbf{missing values} in the features are represented by -1.
 
 \subsection{Data Pre-processing}
 
-As shown in \ref{f:missing}, missing values are found in 14 of the 58 columns. There are 6 features with more than 5000 missing row values. Owing to the shear size of the unavailable data, we have not performed any missing value treatment and removed these features from consideration. Of the remaining data, across rows, data is unavailable in almost 500 ($<$1\%) rows and these are promptly removed.
+As shown in \ref{f:missing}, missing values are found in 14 of the 58 columns. There are 6 features with more than 5000 missing row values. Owing to the shear size of the unavailable data, we have not performed any missing value treatment and removed these features from consideration. Of the remaining data, across rows, data is unavailable in almost 500 (smaller than 1 percent of the whole data-set) rows and these are promptly removed.
 
 \begin{figure*}
   \centering\includegraphics[width=\columnwidth]{images/missingdata}
@@ -138,7 +138,7 @@ As shown in \ref{f:missing}, missing values are found in 14 of the 58 columns. T
 \end{figure*}
 
 \subsection{Distribution of the target variable}
-As shown in \ref{f:numerical}, target variable claims is a binary variable with a skewed distribution of classes. 96\% of the customers didn't make any claims. We wish to consider this distribution in measuring classification accuracy. Area under the ROC curve, recall and precision would be relevant metrics in this case.
+As shown in \ref{f:numerical}, target variable claims is a binary variable with a skewed distribution of classes. 96 percent of the customers did not make any claims. We wish to consider this distribution in measuring classification accuracy. Area under the ROC curve, recall and precision would be relevant metrics in this case.
  
 \begin{figure*}
  \centering\includegraphics[width=\columnwidth]{images/target}
@@ -151,7 +151,7 @@ As shown in \ref{f:numerical}, target variable claims is a binary variable with 
   
 \subsection{Artificial Neural Networks}
 
-Artificial neural networks (ANNs)  are computing models which are based on biological neural networks that constitute human brains. The idea of ANNs is based on the belief that working of human brain can be imitated for computers by using silicon and wires as living neurons. Such systems learn by progressively improving their performance to do tasks by considering examples, generally without task-specific programming. ``The human brain can be considered as a complex network of nerve cells called neurons(about 86 billion)'' \cite{Ainet}. They are inter-connected to other millions of cells by Axons. These neurons then react to stimulation from external environment or inputs from other organs. A neuron can then send the message to other neuron to handle the issue or does not send it forward. 
+Artificial neural networks (ANNs) are computing models which are based on biological neural networks that constitute human brains. The idea of ANNs is based on the belief that working of human brain can be imitated for computers by using silicon and wires as living neurons. Such systems learn by progressively improving their performance to do tasks by considering examples, generally without task-specific programming. ``The human brain can be considered as a complex network of nerve cells called neurons(about 86 billion)'' \cite{Ainet}. They are inter-connected to other millions of cells by Axons. These neurons then react to stimulation from external environment or inputs from other organs. A neuron can then send the message to other neuron to handle the issue or does not send it forward. 
 
 ANNs also try to imitate biological neurons of human brain. The neurons are connected by links and they interact with each other. The nodes can take input data and perform simple operations on the data. The result of these operations is passed to other neurons. The output at each node is called its activation. Each node is assigned with weight. ANNs are capable of learning, which takes place by altering weight values. If the network generates the desired output, there is no need to adjust the weights. However, if the network generates an undesired output or an error, then the system alters the weights in order to improve subsequent results.
 
@@ -163,7 +163,7 @@ In this type of architecture, the output goes back into the network to achieve t
 
 \subsubsection{Feed Forward ANN}
 
-A feed-forward network is a neural network which consists of an input layer, an output layer and one or more hidden layers of neurons. By evaluating its output by changing its input, the efficiency of the network can be noticed based on group behavior of the connected neurons and the output is decided. The main advantage of this network is that it learns to evaluate and recognize input patterns  \cite{Neuralnet}.
+A feed-forward network is a neural network which consists of an input layer, an output layer and one or more hidden layers of neurons. By evaluating its output by changing its input, the efficiency of the network can be noticed based on group behavior of the connected neurons and the output is decided. The main advantage of this network is that it learns to evaluate and recognize input patterns \cite{Neuralnet}.
 
 \subsubsection{Radial Basis Function Neural Network}
 

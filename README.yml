@@ -25,7 +25,6 @@ paper1:
         - 233
     status: Nov 03 17 100%
     title: Big Data Applications in the Media and Entertainment Industry
-    type: latex
     url: https://github.com/bigdata-i523/hid233/blob/master/paper1/report.tex
 paper2:
     abstract: >
@@ -44,7 +43,6 @@ paper2:
         - 233
     status: Nov 10 17 100%
     title: Big Data Applications in Virtual Assistants
-    type: latex
     url: https://github.com/bigdata-i523/hid233/blob/master/paper2/report.tex
 project:
     abstract: >

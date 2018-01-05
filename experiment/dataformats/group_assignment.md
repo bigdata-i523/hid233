@@ -34,7 +34,7 @@ YAML is case sensitive.
 YAML supports some basic data types which can be used with programming languages such as : 
 Scalars, Sequences and Mappings.
 
-## Helpful links:
+## Helpful links
 
 * https://en.wikipedia.org/wiki/YAML
 * https://learn.getgrav.org/advanced/yaml 
@@ -61,7 +61,7 @@ Scalars, Sequences and Mappings.
       - erlang
 ```
 
-# JSON: 
+# JSON
 
 JSON stands for JavaScript Object Notation.
 
@@ -76,14 +76,14 @@ JSON text to a JavaScript object. This adds a level of protection from malicious
 since JSON data is often sent over the Internet on an unsecure channel. It also addresses 
 bad data issues.
 
-## Helpful links:
+## Helpful links
 
 * https://www.w3schools.com/js/js_json_intro.asp
 * http://www.json.org/
 * http://www.electronicdesign.com/dev-tools/whats-difference-between-json-xml-and-yaml
 * http://bob.ippoli.to/archives/2005/12/05/remote-json-jsonp/
 
-* JSON Example:
+## Example
 ``` 
 {
     "glossary": {
@@ -109,8 +109,8 @@ bad data issues.
 }
 ```
 
-* XML:
-> 
+# XML
+
 XML, or Extensible Markup Language, is a markup language that you can use to create 
 your own tags. It was created by the World Wide Web Consortium (W3C) to overcome the 
 limitations of HTML, the Hypertext Markup Language that is the basis for all Web pages. 
@@ -119,26 +119,21 @@ has been used in the publishing industry for decades, its perceived complexity i
 many people that otherwise might have used it. The XML standard is a flexible way to 
 create information formats and electronically share structured data via the public Internet, 
 as well as via corporate networks.
->
-XML stands for EXtensible Markup Language
->
-XML is a markup language much like HTML.
->
-XML was designed to describe data.
->
-XML tags are not predefined in XML. You must define your own tags.
->
-XML is self describing.
->
-XML uses a DTD (Document Type Definition) to formally describe the data.
 
-* Helpful links:
-```
-http://searchmicroservices.techtarget.com/definition/XML-Extensible-Markup-Language
-https://www.w3schools.com/xml/xml_whatis.asp
-```
+* XML stands for EXtensible Markup Language
+* XML is a markup language much like HTML.
+* XML was designed to describe data.
+* XML tags are not predefined in XML. You must define your own tags.
+* XML is self describing.
+* XML uses a DTD (Document Type Definition) to formally describe the data.
 
-* XML example:
+## Helpful links
+
+* http://searchmicroservices.techtarget.com/definition/XML-Extensible-Markup-Language
+* https://www.w3schools.com/xml/xml_whatis.asp
+
+## XML example
+
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <note>
@@ -149,41 +144,34 @@ https://www.w3schools.com/xml/xml_whatis.asp
 </note>
 ```
 
-* Comparison of yaml, json and xml:
->
-YAML stands for "YAML Ain’t Markup Language".
->
-JSON stands for "JavaScript Object Notation".
->
-XML is "eXtensible Markup Language".
->
-XML uses a tag to define the structure just like HTML.
-> 
-YAML uses indentation to define the structured data. So the each block in the YAML is 
+# Comparison of yaml, json and xml:
+
+* YAML stands for "YAML Ain’t Markup Language".
+* JSON stands for "JavaScript Object Notation".
+* XML is "eXtensible Markup Language".
+* XML uses a tag to define the structure just like HTML.
+* YAML uses indentation to define the structured data. So the each block in the YAML is 
 differentiated by the number of white spaces.
-> 
-All three mentioned serialization language has same extension as their name. 
+* All three mentioned serialization language has same extension as their name. 
 (.yaml for YAML, .json for JSON, .xml for XML). 
 
-* Comparison of their usage:
->
+## Comparison of their usage
+
 When you talk about Javascript, JSON is most prominent serialization language.
->
+
 For Java programming, you must have seen XML is widely used.
-> 
+ 
 Python has same indentation technique same as YAML. So Pythonista finds YAML more friendly 
 than other serialization languages.
 
-* Helpful links:
-```
-http://www.electronicdesign.com/dev-tools/whats-difference-between-json-xml-and-yaml
-http://www.csestack.org/yaml-vs-json-vs-xml-difference/
-```
+## Helpful links:
 
-# 2. As we do lots of python, how does python use configurations. Is there a better alternative to use configurations in python?
+* http://www.electronicdesign.com/dev-tools/whats-difference-between-json-xml-and-yaml
+* http://www.csestack.org/yaml-vs-json-vs-xml-difference/
 
-# Answer:
-> 
+
+# Configuration Files in Python
+
 The simplest way to write configuration files is to simply write a separate file that 
 contains Python code. It could be called something like databaseconfig.py. Then the 
 line *config.py could be added to your .gitignore file to avoid uploading it accidentally.
@@ -210,29 +198,25 @@ import databaseconfig as cfg
 connect(cfg.mysql['host'], cfg.mysql['user'], cfg.mysql['password'])
 ```
 
-* 4 Ways to manage the configuration in Python
-1. Using built-in data structure
->
-It uses the built-in data structure for managing the configuration.
+## Managing a configuration in Python
 
-2. Using external configuration file such as INI, JSON, XML or YAML
->
+1. Using built-in data structure: It uses the built-in data structure for managing the configuration.
+
+2. Using external configuration file such as INI, JSON, XML or YAML: 
 It loads the configuration values defined in the external file, not the built-in data structures. 
 
-3. Using environment variables
->
+3. Using environment variables: 
 It uses system environment variables as configuration values.
 
-4. Using dynamic loading
-> 
+4. Using dynamic loading: 
 This is a more advanced way of using built-in data structures . In this approach, 
 the config file does not have to located on importable path and can even be located on 
 other repository.
 
-*  Helpful links:
-```
-https://martin-thoma.com/configuration-files-in-python/
-https://www.red-dove.com/config-doc/
-https://hackernoon.com/4-ways-to-manage-the-configuration-in-python-4623049e841b
-https://wiki.python.org/moin/ConfigParserShootout
-```
+## Helpful links:
+
+* https://martin-thoma.com/configuration-files-in-python/
+* https://www.red-dove.com/config-doc/
+* https://hackernoon.com/4-ways-to-manage-the-configuration-in-python-4623049e841b
+* https://wiki.python.org/moin/ConfigParserShootout
+

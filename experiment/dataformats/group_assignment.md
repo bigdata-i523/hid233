@@ -9,42 +9,40 @@
 * Qiaoyi Liu
 * Shiqi Shen
 * Geng Niu
-
+* Gregor von Laszewski
 
 # Details: 
 yaml, json, xml
 
-# 1. Prepare a collaborative answer about what these data formats are and how they help. Contrast them and identify where you want to use the one or the other
 
-# Answer: 
-* YAML: 
-> 
+# YAML: 
+
 YAML is a data serialization language. Data serialization is the concept of converting 
 structured data into a format that allows it to be shared or stored in such a way that 
 its original structure can be recovered.
 It uses indentation format to define the structure just like python.
-> 
+ 
 YAML was initially called Yet Another Markup Language, referencing its purpose as a markup 
 language, but it was then repurposed as YAML Ain't Markup Language , to distinguish its purpose 
 as data-oriented, rather than document markup.
-> 
+ 
 It essentially allows you to provide powerful configuration settings, without having to learn 
 a more complex code type like CSS, JavaScript, and PHP.
 YAML doesn't support the use of tabs. Instead of tabs, it uses spaces which are not supported universally.
 YAML is case sensitive.
-> 
+ 
 YAML supports some basic data types which can be used with programming languages such as : 
 Scalars, Sequences and Mappings.
 
-* Helpful links:
-```
-https://en.wikipedia.org/wiki/YAML
-https://learn.getgrav.org/advanced/yaml 
-https://www.tutorialspoint.com/grav/grav_yaml_syntax.htm
-http://www.yamllint.com/
-```
+## Helpful links:
 
-* YAML example:
+* https://en.wikipedia.org/wiki/YAML
+* https://learn.getgrav.org/advanced/yaml 
+* https://www.tutorialspoint.com/grav/grav_yaml_syntax.htm
+* http://www.yamllint.com/
+
+## Example
+
 ```
 # Employee records
 -  Dhawal:
@@ -63,28 +61,27 @@ http://www.yamllint.com/
       - erlang
 ```
 
-* JSON: 
->
+# JSON: 
+
 JSON stands for JavaScript Object Notation.
->
+
 It is easy for humans to read and write. It is easy for machines to parse and generate.
-> 
+ 
 JSON is a text format that is completely language independent but uses conventions 
 that are familiar to programmers of the C-family of languages, including C, C++, C#, 
 Java, JavaScript, Perl, Python, and many others. 
->
+
 JSON’s syntax matches JavaScript, but typically a parse function is used to convert 
 JSON text to a JavaScript object. This adds a level of protection from malicious code 
 since JSON data is often sent over the Internet on an unsecure channel. It also addresses 
 bad data issues.
 
-* Helpful links:
-```
-https://www.w3schools.com/js/js_json_intro.asp
-http://www.json.org/
-http://www.electronicdesign.com/dev-tools/whats-difference-between-json-xml-and-yaml
-http://bob.ippoli.to/archives/2005/12/05/remote-json-jsonp/
-```
+## Helpful links:
+
+* https://www.w3schools.com/js/js_json_intro.asp
+* http://www.json.org/
+* http://www.electronicdesign.com/dev-tools/whats-difference-between-json-xml-and-yaml
+* http://bob.ippoli.to/archives/2005/12/05/remote-json-jsonp/
 
 * JSON Example:
 ``` 
